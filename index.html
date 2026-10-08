@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#103f46">
+  <title>PhysioLearn</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><div class="logo">+</div><div><b>PhysioLearn</b><small>Lernen · Verstehen · Anwenden</small></div></div>
+    <nav class="nav">
+      <button class="active" data-view="dashboard">⌂ Dashboard</button>
+      <button data-view="anatomy">◉ Anatomie</button>
+      <button data-view="flashcards">▣ Karteikarten</button>
+      <button data-view="quiz">? Quiz</button>
+      <button data-view="favorites">★ Favoriten</button>
+      <button data-view="progress">↗ Fortschritt</button>
+      <button data-view="coming">◇ Krankheitsbilder</button>
+      <button data-view="coming">◫ Übungen</button>
+      <button data-view="coming">＋ Therapieplaner</button>
+    </nav>
+    <div class="side-note"><b id="modeStatus">Prüfungswissen</b><br>PDF-basierte Inhalte mit sichtbaren Quellen.</div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="search"><input id="globalSearch" placeholder="Muskel, Funktion, Nerv …"><span class="kbd">Suche</span><div id="searchResults"></div></div>
+      <div class="mode"><button id="modeExam">Prüfungswissen</button><button id="modeExtended">Erweitert</button></div>
+      <button class="iconbtn" id="themeBtn" aria-label="Dark Mode">◐</button>
+    </header>
+
+    <div class="content">
+      <div id="loadWarning" class="card" style="display:none;margin-bottom:16px">Die Datendatei konnte nicht geladen werden. Bitte die App über einen Webserver öffnen, nicht direkt als lokale Datei.</div>
+
+      <section class="view active" id="view-dashboard">
+        <div class="hero">
+          <div class="hero-main">
+            <div class="eyebrow">Deine Physio-Lernplattform</div>
+            <h1>Von Anatomie direkt zur Anwendung.</h1>
+            <p class="lead">Lerne Muskeln mit Ursprung, Ansatz, Innervation und Funktion – mit Suche, Karteikarten, Quiz, Quellen und persönlichem Fortschritt.</p>
+            <div class="cta"><button class="btn primary" data-view="anatomy">Anatomie öffnen</button><button class="btn secondary" data-view="flashcards">Karteikarten starten</button></div>
+          </div>
+          <div class="hero-side">
+            <div class="eyebrow">Heute</div>
+            <h2>Weiterlernen</h2>
+            <p id="progressText">0 Muskeln angesehen</p>
+            <div class="progress"><span id="progressBar"></span></div>
+            <div style="height:18px"></div>
+            <button class="btn primary" data-view="quiz">5-Minuten-Quiz</button>
+          </div>
+        </div>
+        <div id="extendedNote" class="card" style="display:none;margin-bottom:16px"><b>Erweitertes Wissen</b><p>In dieser ersten Version sind noch keine externen Ergänzungen enthalten. Sobald sie ergänzt werden, werden sie klar getrennt vom Prüfungswissen angezeigt.</p></div>
+        <div class="grid">
+          <div class="card stat"><span class="muted">Muskeln</span><div class="n" id="statMuscles">0</div></div>
+          <div class="card stat"><span class="muted">Angesehen</span><div class="n" id="statSeen">0</div></div>
+          <div class="card stat"><span class="muted">Favoriten</span><div class="n" id="statFav">0</div></div>
+          <div class="card stat"><span class="muted">Quizquote</span><div class="n" id="statQuiz">–</div></div>
+          <div class="card wide"><h3>Zuletzt angesehen</h3><div id="recentList" class="result-list"></div></div>
+          <div class="card side"><h3>Wissenskette</h3><p>Anatomie → Funktion → Bewegung → Test → Pathologie → Befund → Therapieziel → Übung.</p><span class="badge-script">Version 0.1</span></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-anatomy">
+        <div class="section-head"><div><div class="eyebrow">Anatomie</div><h2>Muskelbibliothek</h2><p class="muted">Inhalte aus deinem Staatsexamen-Skript.</p></div><div id="muscleCount" class="muted"></div></div>
+        <div class="filters" style="margin-bottom:16px"><input id="muscleSearch" placeholder="Muskeln durchsuchen"><select id="regionFilter"></select></div>
+        <div class="muscle-grid" id="muscleGrid"></div>
+      </section>
+
+      <section class="view" id="view-muscle">
+        <button class="btn secondary" data-view="anatomy" style="margin-bottom:14px">← Zur Übersicht</button>
+        <div class="detail">
+          <div class="anatomy-panel">
+           <div id="regionPhotos" class="region-photos"></div>
+            <div style="text-align:center;width:100%">
+              <svg class="body-svg" viewBox="0 0 220 440" aria-label="Schematische Körperansicht">
+                <circle class="body focus-zone" id="head" cx="110" cy="38" r="28"/>
+                <rect class="body focus-zone" id="torso" x="70" y="70" width="80" height="120" rx="35"/>
+                <ellipse class="body focus-zone" id="shoulder" cx="110" cy="82" rx="68" ry="20"/>
+                <rect class="body focus-zone" id="arm" x="38" y="84" width="25" height="105" rx="14"/>
+                <rect class="body focus-zone" id="arm2" x="157" y="84" width="25" height="105" rx="14"/>
+                <rect class="body focus-zone" id="forearm" x="30" y="176" width="22" height="95" rx="12"/>
+                <rect class="body focus-zone" id="forearm2" x="168" y="176" width="22" height="95" rx="12"/>
+                <circle class="body focus-zone" id="hand" cx="40" cy="282" r="17"/><circle class="body" cx="180" cy="282" r="17"/>
+                <ellipse class="body focus-zone" id="hip" cx="110" cy="202" rx="48" ry="31"/>
+                <rect class="body focus-zone" id="thigh" x="71" y="220" width="30" height="105" rx="15"/>
+                <rect class="body" x="119" y="220" width="30" height="105" rx="15"/>
+                <circle class="body focus-zone" id="knee" cx="86" cy="332" r="18"/><circle class="body" cx="134" cy="332" r="18"/>
+                <rect class="body focus-zone" id="leg" x="72" y="344" width="27" height="78" rx="14"/>
+                <rect class="body" x="121" y="344" width="27" height="78" rx="14"/>
+              </svg>
+              <div class="eyebrow" id="viewerLabel">Region</div>
+              <p class="muted">Schematischer Körperplan · Bilder sind KI-Illustrationen und fachlich nicht validiert</p>
+            </div>
+          </div>
+          <div class="detail-card">
+            <div class="detail-title"><div><div class="eyebrow" id="detailRegion"></div><h2 id="detailName"></h2><p id="detailGerman" class="muted"></p></div><button id="favBtn" class="fav">☆ Speichern</button></div>
+            <div class="tabs"><button class="active">Übersicht</button><button>Anatomie</button><button>Funktion</button><button>Klinik</button><button>Übungen</button><button>Lernen</button></div>
+            <div id="detailInfo"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="view-flashcards">
+        <div class="section-head"><div><div class="eyebrow">Lernen</div><h2>Karteikarten</h2><p class="muted">Tippe auf die Karte, um die Antwort zu sehen.</p></div><div id="flashMeta" class="muted"></div></div>
+        <div class="flash-wrap">
+          <div class="flashcard" id="flashcard" onclick="flipCard()"><div class="flash-inner">
+            <div class="flash-face"><span class="flash-label">Frage</span><h2 id="flashQuestion"></h2></div>
+            <div class="flash-face flash-back"><span class="flash-label">Antwort</span><div><h2 id="flashAnswer"></h2><button class="source" id="flashSource" onclick="event.stopPropagation()">Quelle ansehen</button></div></div>
+          </div></div>
+          <div class="actions"><button class="btn secondary" onclick="rateCard(false)">× Noch unsicher</button><button class="btn primary" onclick="rateCard(true)">✓ Gewusst</button></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-quiz">
+        <div class="quiz"><div class="eyebrow">Quiz</div><h2 id="quizQ">Frage wird geladen …</h2><div id="quizOptions"></div><div id="quizFeedback"></div></div>
+      </section>
+
+      <section class="view" id="view-favorites">
+        <div class="section-head"><div><div class="eyebrow">Sammlung</div><h2>Favoriten</h2></div></div><div class="muscle-grid" id="favoritesGrid"></div>
+      </section>
+
+      <section class="view" id="view-progress">
+        <div class="section-head"><div><div class="eyebrow">Lernfortschritt</div><h2>Dein Stand</h2></div></div>
+        <div class="grid">
+          <div class="card half"><h3>Angesehene Muskeln</h3><div class="n" id="pViewed"></div><div class="progress"><span id="pViewedBar"></span></div></div>
+          <div class="card half"><h3>Quizgenauigkeit</h3><div class="n" id="pQuiz"></div></div>
+          <div class="card half"><h3>Sichere Karten</h3><div class="n" id="pCards"></div></div>
+          <div class="card half"><h3>Favoriten</h3><div class="n" id="pFav"></div></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-coming">
+        <div class="hero-main"><div class="eyebrow">Nächste Ausbaustufe</div><h1>Der Bereich ist vorbereitet.</h1><p class="lead">Als Nächstes kommen Knochen, Gelenke, Nerven, Krankheitsbilder, Übungen, Reha-Timelines, Befund und Therapieplaner aus derselben Wissensdatenbank.</p><button class="btn primary" data-view="anatomy">Bereits nutzbare Anatomie öffnen</button></div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<nav class="mobile-nav">
+  <button class="active" data-view="dashboard">⌂<br>Home</button>
+  <button data-view="anatomy">◉<br>Anatomie</button>
+  <button data-view="flashcards">▣<br>Karten</button>
+  <button data-view="quiz">?<br>Quiz</button>
+  <button data-view="favorites">★<br>Favoriten</button>
+</nav>
+
+<div class="drawer" id="sourceDrawer"><div class="backdrop" id="sourceBackdrop"></div><aside class="drawer-panel"><button class="iconbtn" id="sourceClose" style="float:right">✕</button><div class="eyebrow">Transparente Quellen</div><h2 id="sourceTitle"></h2><div id="sourceBody"></div></aside></div>
+<script src="./app.js"></script>
+</body>
+</html>
