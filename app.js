@@ -1003,3 +1003,197 @@ if(document.readyState === 'loading'){
 } else {
   boot();
 }
+
+/* PHYSIOLEARN – REHA-PHASEN V1 */
+(function () {
+  let rehabData = [];
+  let selectedCondition = null;
+  let loadError = false;
+
+  const originalOpenCondition = window.openCondition;
+
+  function safe(value) {
+    return escapeHtml(String(value ?? ''));
+  }
+
+  function makeList(items) {
+    if (!Array.isArray(items) || !items.length) {
+      return '<p>Keine Angaben vorhanden.</p>';
+    }
+    return '<ul>' + items.map(x =>
+      '<li>' + safe(x) + '</li>'
+    ).join('') + '</ul>';
+  }
+
+  function renderRehab(conditionId, phaseIndex = 0) {
+    const detail = document.getElementById('conditionDetail');
+    if (!detail) return;
+
+    const article = detail.querySelector('.clinic-detail');
+    if (!article) return;
+
+    const old = article.querySelector('#rehabPanel');
+    if (old) old.remove();
+
+    const record = rehabData.find(
+      item => item.conditionId === conditionId
+    );
+
+    if (!record || !Array.isArray(record.phases)) {
+      return;
+    }
+
+    const phase = record.phases[phaseIndex];
+    if (!phase) return;
+
+    const panel = document.createElement('section');
+    panel.id = 'rehabPanel';
+    panel.style.cssText =
+      'margin:22px 0;padding:20px;' +
+      'border:1px solid var(--border,#8AB8D8);' +
+      'border-radius:18px;' +
+      'background:var(--surface2,#DCEEFF);' +
+      'color:var(--text,#173B60);';
+
+    panel.innerHTML = `
+      <h3>Rehabilitation nach Phasen</h3>
+
+      <p style="font-size:13px;opacity:.85">
+        Lernbeispiele. Individuelle OP-Vorgaben,
+        Belastungsfreigabe und Heilungsverlauf beachten.
+      </p>
+
+      <div id="rehabPhaseButtons"
+        style="display:flex;flex-wrap:wrap;gap:9px;
+        margin:16px 0"></div>
+
+      <div class="card"
+        style="padding:18px;margin-top:12px">
+
+        <h3>${safe(phase.name)}</h3>
+        <p><strong>Zeitraum:</strong>
+          ${safe(phase.period)}</p>
+
+        <h4>Therapieziele</h4>
+        ${makeList(phase.goals)}
+
+        <h4>Passende Übungen</h4>
+        <div id="rehabExerciseCards"></div>
+
+        <h4>Vorsichtsmaßnahmen</h4>
+        ${makeList(phase.cautions)}
+
+        <h4>Kriterien für die nächste Phase</h4>
+        ${makeList(phase.progressionCriteria)}
+      </div>
+    `;
+
+    const buttonArea =
+      panel.querySelector('#rehabPhaseButtons');
+
+    record.phases.forEach((p, index) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = 'Phase ' + (index + 1);
+
+      button.style.cssText =
+        'padding:11px 16px;border-radius:12px;' +
+        'border:1px solid #6495B9;' +
+        'font-weight:700;cursor:pointer;' +
+        'background:' +
+        (index === phaseIndex ? '#176FA9' : '#233D60') +
+        ';color:#FFFFFF;';
+
+      button.addEventListener('click', () => {
+        renderRehab(conditionId, index);
+      });
+
+      buttonArea.appendChild(button);
+    });
+
+    const exerciseArea =
+      panel.querySelector('#rehabExerciseCards');
+
+    (phase.exercises || []).forEach((exercise, i) => {
+      const card = document.createElement('details');
+
+      card.style.cssText =
+        'margin:10px 0;padding:14px;' +
+        'border:1px solid var(--border,#8AB8D8);' +
+        'border-radius:12px;' +
+        'background:var(--surface,#FFFFFF);';
+
+      card.innerHTML = `
+        <summary style="cursor:pointer;font-weight:700">
+          ${i + 1}. ${safe(exercise.name)}
+        </summary>
+
+        <div style="margin-top:13px">
+          <p><strong>Ziel:</strong>
+            ${safe(exercise.purpose)}</p>
+
+          <p><strong>Ausgangsstellung:</strong>
+            ${safe(exercise.position)}</p>
+
+          <strong>Durchführung:</strong>
+          ${makeList(exercise.steps)}
+
+          <p><strong>Dosierung:</strong>
+            ${safe(exercise.dose)}</p>
+        </div>
+      `;
+
+      exerciseArea.appendChild(card);
+    });
+
+    const heading = article.querySelector('h2');
+    if (heading) {
+      heading.insertAdjacentElement('afterend', panel);
+    } else {
+      article.prepend(panel);
+    }
+  }
+
+  if (typeof originalOpenCondition === 'function') {
+    window.openCondition = function (id) {
+      selectedCondition = id;
+      originalOpenCondition(id);
+      renderRehab(id);
+    };
+  }
+
+  async function loadRehabPhases() {
+    try {
+      const response = await fetch(
+        './data/rehab-phases.json?v=1',
+        { cache: 'no-store' }
+      );
+
+      if (!response.ok) {
+        throw new Error('Reha-Daten nicht gefunden');
+      }
+
+      const data = await response.json();
+
+      if (!Array.isArray(data)) {
+        throw new Error('Ungültiges Datenformat');
+      }
+
+      rehabData = data;
+
+      if (selectedCondition) {
+        renderRehab(selectedCondition);
+      }
+
+      console.log(
+        'PhysioLearn Reha-Phasen geladen:',
+        rehabData.length
+      );
+    } catch (error) {
+      loadError = true;
+      console.error('Reha-Daten konnten nicht geladen werden', error);
+    }
+  }
+
+  loadRehabPhases();
+})();
