@@ -1,1 +1,570 @@
-
+[
+  {
+    "id": "pavk",
+    "name": "Periphere arterielle Verschlusskrankheit (pAVK)",
+    "area": "Gefäße / Beine",
+    "field": "Innere Medizin",
+    "definition": "Arterielle Durchblutungsstörung der Extremitäten. Im Stadium II nach Fontaine tritt eine belastungsabhängige Claudicatio intermittens auf.",
+    "symptoms": [
+      "Belastungsabhängiger Waden- oder Beinschmerz",
+      "Gehen nur mit Pausen möglich",
+      "Verminderte Fußpulse, trophische Veränderungen möglich"
+    ],
+    "assessment": [
+      "Anamnese einschließlich Ruheschmerz, Wunden und kardialer Beschwerden",
+      "Gehstrecke schmerzfrei und maximal dokumentieren",
+      "Haut, Fußpulse und ärztlichen ABI-Befund beachten",
+      "Alltagsziele und Belastbarkeit erfragen"
+    ],
+    "goals": [
+      "Gehfähigkeit und Alltagsbeteiligung verbessern",
+      "Belastung sicher und nachvollziehbar dosieren",
+      "Risikofaktoren und Selbstmanagement ansprechen"
+    ],
+    "warnings": [
+      "Bei Ruheschmerz, neuem Gewebedefekt, plötzlicher Ischämie oder akuten Beschwerden keine eigenständige Trainingssteigerung",
+      "Bei Verdacht auf akute Extremitätenischämie sofortige medizinische Abklärung",
+      "Gehtraining nur im Rahmen ärztlich abgeklärter Belastbarkeit"
+    ],
+    "exerciseIds": [
+      "interval-walk",
+      "walking-diary",
+      "ankle-pumps"
+    ],
+    "sources": [
+      "Arbeitsauftrag 08.10.26.pdf; ilias.php 2(1).pdf"
+    ],
+    "note": "Die PDF beschreibt das ⅔-Prinzip; dessen Anwendung muss zur aktuellen ärztlichen Belastungsvorgabe und dem lokalen Behandlungskonzept passen."
+  },
+  {
+    "id": "cvi",
+    "name": "Chronische venöse Insuffizienz (CVI)",
+    "area": "Gefäße / Beine",
+    "field": "Innere Medizin",
+    "definition": "Chronisch gestörter venöser Rückstrom mit venöser Hypertension und möglichen Hautveränderungen.",
+    "symptoms": [
+      "Ödeme",
+      "Schweregefühl",
+      "Hautveränderungen bis zum Ulcus cruris venosum"
+    ],
+    "assessment": [
+      "Schwellung und Hautzustand beobachten",
+      "Belastbarkeit und Gehfähigkeit erfassen",
+      "Kompressionsversorgung und arterielle Durchblutung ärztlich abklären"
+    ],
+    "goals": [
+      "Wadenmuskelpumpe aktivieren",
+      "Beweglichkeit und Alltagsaktivität erhalten",
+      "Hautschutz beachten"
+    ],
+    "warnings": [
+      "Kompression nicht ohne Prüfung der arteriellen Versorgung empfehlen",
+      "Bei plötzlich neuer einseitiger Schwellung/Schmerz TVT ärztlich ausschließen"
+    ],
+    "exerciseIds": [
+      "ankle-pumps",
+      "heel-raise-supported",
+      "walk-easy"
+    ],
+    "sources": [
+      "Fehlerdetektive_Venenerkrankungen_Neues_Design 2.pdf"
+    ]
+  },
+  {
+    "id": "varikose",
+    "name": "Varikose",
+    "area": "Gefäße / Beine",
+    "field": "Innere Medizin",
+    "definition": "Erweiterte und geschlängelte oberflächliche Venen; nicht identisch mit einer CVI.",
+    "symptoms": [
+      "Sichtbare Krampfadern",
+      "Schwere- oder Spannungsgefühl",
+      "Gelegentlich Schwellung"
+    ],
+    "assessment": [
+      "Inspektion und Beschwerdeanamnese",
+      "Auf Warnzeichen einer oberflächlichen Venenthrombose achten"
+    ],
+    "goals": [
+      "Bewegung und venösen Rückstrom unterstützen",
+      "Alltagsaktivität fördern"
+    ],
+    "warnings": [
+      "Bei harter, schmerzhafter oder geröteter Vene medizinisch abklären lassen"
+    ],
+    "exerciseIds": [
+      "ankle-pumps",
+      "heel-raise-supported",
+      "walk-easy"
+    ],
+    "sources": [
+      "Fehlerdetektive_Venenerkrankungen_Neues_Design 2.pdf"
+    ]
+  },
+  {
+    "id": "tvt",
+    "name": "Tiefe Venenthrombose (TVT)",
+    "area": "Gefäße / Beine",
+    "field": "Innere Medizin",
+    "definition": "Thrombus in einer tiefen Vene; eine Lungenembolie ist eine mögliche Komplikation.",
+    "symptoms": [
+      "Einseitige Schwellung möglich",
+      "Schmerz und Überwärmung möglich",
+      "Kann auch symptomarm verlaufen"
+    ],
+    "assessment": [
+      "Bei Verdacht: unverzügliche ärztliche Diagnostik; Kompressionsultraschall möglich",
+      "Keine Diagnose allein aus D-Dimeren oder Umfangsdifferenz"
+    ],
+    "goals": [
+      "Bei bestätigter TVT nur gemäß ärztlicher Therapie- und Mobilisationsfreigabe behandeln",
+      "Warnzeichen erkennen"
+    ],
+    "warnings": [
+      "Keine kräftige Massage am verdächtigen Bein",
+      "Bei Atemnot, Brustschmerz oder Kollaps sofort Notruf",
+      "Nicht eigenständig Venengymnastik anstelle der Diagnostik beginnen"
+    ],
+    "exerciseIds": [],
+    "sources": [
+      "Fehlerdetektive_Venenerkrankungen_Neues_Design 2.pdf"
+    ],
+    "note": "Bewusst keine pauschalen Übungen für unklare oder akute TVT verlinkt."
+  },
+  {
+    "id": "oberflaechliche-venenthrombose",
+    "name": "Oberflächliche Venenthrombose",
+    "area": "Gefäße / Beine",
+    "field": "Innere Medizin",
+    "definition": "Thrombotische Entzündung einer oberflächlichen Vene; Ausdehnung und Lage sind für die Behandlung relevant.",
+    "symptoms": [
+      "Schmerzhafter harter Venenstrang",
+      "Lokale Entzündungszeichen"
+    ],
+    "assessment": [
+      "Ärztliche Beurteilung von Verlauf, Ausdehnung und Nähe zum tiefen Venensystem"
+    ],
+    "goals": [
+      "Sichere Abklärung und angepasste Mobilisation"
+    ],
+    "warnings": [
+      "Ausbreitung zum tiefen Venensystem möglich",
+      "Keine kräftige Massage der betroffenen Vene"
+    ],
+    "exerciseIds": [],
+    "sources": [
+      "Fehlerdetektive_Venenerkrankungen_Neues_Design 2.pdf"
+    ]
+  },
+  {
+    "id": "coxarthrose",
+    "name": "Coxarthrose",
+    "area": "Hüfte",
+    "field": "Orthopädie",
+    "definition": "Degenerative Veränderung des Hüftgelenks, die häufig mit Schmerzen und Aktivitätseinschränkungen einhergeht.",
+    "symptoms": [
+      "Anlauf- und Leistenschmerz mit möglicher Ausstrahlung zum Knie",
+      "Eingeschränkte Beweglichkeit und Belastbarkeit",
+      "Probleme bei Transfers, Sockenanziehen und längeren Wegen"
+    ],
+    "assessment": [
+      "Aktive und passive Beweglichkeit",
+      "Schmerzverhalten und Alltagsaktivitäten",
+      "Gangbild, Transfers und funktionelle Kraft"
+    ],
+    "goals": [
+      "Beweglichkeit und Funktion möglichst erhalten",
+      "Alltagsaktivitäten erleichtern",
+      "Belastung schrittweise steigern"
+    ],
+    "warnings": [
+      "Belastung an Beschwerden und ärztliche Diagnostik anpassen",
+      "Bei akut starken neuen Schmerzen oder Trauma erneut ärztlich abklären"
+    ],
+    "exerciseIds": [
+      "sit-to-stand",
+      "hip-abduction-standing",
+      "walk-easy",
+      "hip-mobility-seated"
+    ],
+    "sources": [
+      "ilias.php 5.pdf"
+    ]
+  },
+  {
+    "id": "knie-postop",
+    "name": "Knieoperation – frühe postoperative Mobilisation (Fallbeispiel)",
+    "area": "Knie",
+    "field": "Orthopädie / Chirurgie",
+    "definition": "Lernsituation am vierten postoperativen Tag mit Bewegungssorge, eingeschränkter Mobilisation und beginnendem Dekubitus. Der genaue Eingriff wird im vorliegenden Falltext nicht ausdrücklich benannt.",
+    "symptoms": [
+      "Postoperative Schwellung und Bewegungseinschränkung",
+      "Angst, durch Bewegung Schaden anzurichten",
+      "Verminderte Mobilität und Hautgefährdung"
+    ],
+    "assessment": [
+      "OP-Bericht und ärztliche Belastungs-/Bewegungsvorgaben einholen",
+      "Schmerz, Schwellung, Kreislauf und Transferfähigkeit prüfen",
+      "Hautbeobachtung und interprofessionelle Abstimmung"
+    ],
+    "goals": [
+      "Sichere Mobilisation mit Aufklärung",
+      "Selbstwirksamkeit und Bewegungssicherheit fördern",
+      "Immobilitätskomplikationen vorbeugen"
+    ],
+    "warnings": [
+      "Keine pauschale Knie-TEP-Nachbehandlung behaupten, da OP-Art im Text unklar ist",
+      "Bewegung nur nach konkreter OP-Freigabe",
+      "Hautveränderungen interprofessionell abklären"
+    ],
+    "exerciseIds": [
+      "ankle-pumps",
+      "bed-to-sit-education",
+      "knee-isometric"
+    ],
+    "sources": [
+      "Lernsituation 3.4(5).pdf; ilias.php 24.pdf"
+    ]
+  },
+  {
+    "id": "beckenringfraktur",
+    "name": "Instabile Beckenringfraktur mit Fixateur externe",
+    "area": "Becken",
+    "field": "Orthopädie / Chirurgie",
+    "definition": "Kombinierte Verletzung von Symphyse, Iliosakralfuge und Sakrum mit externer Stabilisierung laut Fallunterlage.",
+    "symptoms": [
+      "Schmerz und eingeschränkte Mobilität",
+      "Verminderte mechanische Belastbarkeit des Beckens"
+    ],
+    "assessment": [
+      "Belastungsvorgaben und Stabilitäts-/OP-Befund prüfen",
+      "Transfers und Hilfsmittelbedarf einschätzen"
+    ],
+    "goals": [
+      "Sichere, angepasste Mobilität",
+      "Schutz der Stabilisierung und Unterstützung der Heilung"
+    ],
+    "warnings": [
+      "Belastung ist individuell ärztlich festzulegen",
+      "Keine generelle Teilbelastungsregel oder Übungsfreigabe ableiten",
+      "Pin-Stellen und Infektionszeichen beachten"
+    ],
+    "exerciseIds": [
+      "bed-to-sit-education"
+    ],
+    "sources": [
+      "Arbeitsauftrag 30.04.2026 Daniel Hergert.pdf"
+    ]
+  },
+  {
+    "id": "gonarthrose",
+    "name": "Gonarthrose",
+    "field": "Orthopädie",
+    "area": "Knie",
+    "definition": "Degenerative Gelenkerkrankung des Kniegelenks mit möglichen Schmerzen und Einschränkungen im Alltag. Die Fallunterlagen beschreiben eine Patientin mit Gonarthrose Grad 3.",
+    "symptoms": [
+      "Belastungsbezogene Knieschmerzen",
+      "Bewegungsvermeidung und Unsicherheit beim Training",
+      "Eingeschränkte Aktivitäten im Beruf und Alltag"
+    ],
+    "assessment": [
+      "Schmerz, Belastung und Alltagsanforderungen erfragen",
+      "Bewegungsumfang, Kraft, Gang und Gleichgewicht untersuchen",
+      "Ziele und Bewegungsängste erfassen"
+    ],
+    "goals": [
+      "Belastbarkeit und Selbstwirksamkeit fördern",
+      "Kniegelenkfunktion und Beinmuskulatur trainieren",
+      "Alltagsaktivität schrittweise steigern"
+    ],
+    "warnings": [
+      "Übungen an Beschwerden und Gesamtbefund anpassen",
+      "Bei akut entzündlich verändertem Gelenk oder unerwarteter Schwellung medizinisch abklären"
+    ],
+    "exerciseIds": [
+      "sit-to-stand",
+      "balance-supported",
+      "knee-active-extension",
+      "step-up-low"
+    ],
+    "sources": [
+      "Lern. 3.3(1).pdf, S. 1–3",
+      "Verbesserung der Stabilität, Koordination und Muskelkraft im Kniegelenk.pdf, S. 1–4"
+    ],
+    "note": "Fallorientierte Lernzusammenfassung; aus einer Fallgeschichte lässt sich keine allgemeine Belastungsfreigabe ableiten."
+  },
+  {
+    "id": "vkb-rekonstruktion",
+    "name": "VKB-Ruptur nach Rekonstruktion",
+    "field": "Orthopädie / Chirurgie",
+    "area": "Knie",
+    "definition": "Riss des vorderen Kreuzbandes; im Unterrichtsfall erfolgte die Rekonstruktion mit einem Hamstring-Transplantat.",
+    "symptoms": [
+      "Schwellung und eingeschränkte Kniestreckung bzw. -beugung",
+      "Unsicherheit auf Treppen und Angst vor erneutem Nachgeben",
+      "Belastungsabhängige Beschwerden während der Rehabilitation"
+    ],
+    "assessment": [
+      "Operation, Begleitverletzungen und Nachbehandlungsschema prüfen",
+      "Bewegungsumfang, Schwellung, Kraft und Gang dokumentieren",
+      "Patientenbezogene Ziele und sportliche Anforderungen erfassen"
+    ],
+    "goals": [
+      "Streckung und Funktion gemäß ärztlicher Vorgabe verbessern",
+      "Kraft und neuromuskuläre Kontrolle wieder aufbauen",
+      "Vertrauen in die Belastbarkeit wiedergewinnen"
+    ],
+    "warnings": [
+      "Keine pauschalen Wochenfreigaben: Transplantat, Begleitverletzungen und Operationsprotokoll sind entscheidend",
+      "Neue deutliche Schwellung, Rötung, Fieber oder Wadenschmerzen abklären",
+      "Return-to-Sport nicht ausschließlich nach Zeit entscheiden"
+    ],
+    "exerciseIds": [
+      "knee-active-extension",
+      "weightshift-supported",
+      "balance-supported",
+      "step-up-low"
+    ],
+    "sources": [
+      "Lernsituation 3.1  4(1).pdf, S. 1–3",
+      "Lebensqualität nach VKB-Verletzung.pdf, S. 2–6"
+    ],
+    "note": "Messinstrumente werden im Präsentationsmaterial genannt; Scores ersetzen keine individuelle klinische Entscheidung."
+  },
+  {
+    "id": "patellaluxation",
+    "name": "Patellaluxation",
+    "field": "Orthopädie / Chirurgie",
+    "area": "Knie",
+    "definition": "Ausrenkung der Kniescheibe. Im Schulfall wurde die Patella reponiert und eine Orthese mit eingeschränktem Bewegungsumfang verordnet.",
+    "symptoms": [
+      "Akute Schwellung und eingeschränkte Kniebewegung",
+      "Gangunsicherheit bei Teilbelastung",
+      "Quadrizepsschwäche und Angst vor erneuter Luxation"
+    ],
+    "assessment": [
+      "Orthese, Belastungs- und Bewegungsvorgaben dokumentieren",
+      "Schwellung, Schmerz, Hautstatus und Gangbild prüfen",
+      "Wiederkehrende Instabilität und Alltagsziele besprechen"
+    ],
+    "goals": [
+      "Sicheres Gehen mit Hilfsmitteln",
+      "Belastung innerhalb der Vorgaben aufbauen",
+      "Stabilität und Vertrauen wiedererlangen"
+    ],
+    "warnings": [
+      "Die im Fall angegebene Orthesenbegrenzung ist fallspezifisch, kein allgemeines Protokoll",
+      "Auffällige Rötung und Infektzeichen ärztlich abklären",
+      "Keine forcierte Patellamobilisation bei akuter Instabilität"
+    ],
+    "exerciseIds": [
+      "weightshift-supported",
+      "gait-with-aids"
+    ],
+    "sources": [
+      "Lernsituation 3.5 + Fragen (1).pdf, S. 1–2"
+    ],
+    "note": ""
+  },
+  {
+    "id": "knie-tep",
+    "name": "Knie-Totalendoprothese (Knie-TEP)",
+    "field": "Orthopädie / Chirurgie",
+    "area": "Knie",
+    "definition": "Operativer Kniegelenkersatz; Schulfall Herr Weber am vierten postoperativen Tag mit Unsicherheit und Komplikationsrisiken.",
+    "symptoms": [
+      "Postoperative Schwellung und Bewegungseinschränkung",
+      "Unsicherheit beim Aufstehen und Gehen",
+      "Mögliche Hautschädigung durch Immobilität"
+    ],
+    "assessment": [
+      "OP-/Belastungsvorgaben und Vitalparameter erfassen",
+      "Wunde, Temperatur, Schwellung und Schmerzen beobachten",
+      "Transfer- und Gehfähigkeit überprüfen"
+    ],
+    "goals": [
+      "Sichere frühe Mobilität im vorgegebenen Rahmen",
+      "Aktivierung und alltagsnahe Selbstständigkeit",
+      "Dekubitus- und Immobilitätsrisiken minimieren"
+    ],
+    "warnings": [
+      "Fieber, Wundrötung, Verdacht auf postoperative Infektion: sofort Rücksprache, keine eigenständige Mobilisation",
+      "Wund- und Hygieneschutz konsequent beachten",
+      "Belastungsvorgaben sowie mögliche ärztliche Einschränkungen einhalten"
+    ],
+    "exerciseIds": [
+      "sit-to-stand",
+      "gait-with-aids",
+      "knee-active-extension"
+    ],
+    "sources": [
+      "Lernsituation 3.4(6).pdf, S. 1–2",
+      "Hygiene LS 3.4(1).pdf, S. 3–6"
+    ],
+    "note": "Die Unterrichtsunterlagen enthalten unterschiedliche Fallsituationen; Wundinfektion ist ein Warnfall, keine normale Rehaphase."
+  },
+  {
+    "id": "dekubitus",
+    "name": "Dekubitus bei Immobilität",
+    "field": "Pflege / Prävention",
+    "area": "Haut / Lagerung",
+    "definition": "Lokalisierte Haut- und Gewebeschädigung durch anhaltenden Druck oder Scherkräfte; in der Lernsituation am Kreuzbein beschrieben.",
+    "symptoms": [
+      "Druckempfindliche gerötete Haut",
+      "Langes Liegen und Vermeiden von Positionswechseln",
+      "Mögliche Schmerzen und Überwärmung"
+    ],
+    "assessment": [
+      "Hautveränderungen frühzeitig melden und dokumentieren",
+      "Beweglichkeit, Positionswechsel und Unterstützungsmöglichkeiten erfassen",
+      "Risikofaktoren wie Immobilität beachten"
+    ],
+    "goals": [
+      "Druckentlastung und sichere Mobilität unterstützen",
+      "Positionswechsel und Selbstmanagement fördern",
+      "Weitere Schädigung vermeiden"
+    ],
+    "warnings": [
+      "Verdacht auf Hautschädigung an Pflege/Ärzteteam melden",
+      "Keine Massagetechnik direkt auf druckgeschädigtem Gewebe",
+      "Lagerung und Mobilisation mit der Wundversorgung abstimmen"
+    ],
+    "exerciseIds": [
+      "bed-mobility-guided",
+      "sit-to-stand"
+    ],
+    "sources": [
+      "Lernsituation 3.4(6).pdf, S. 1–2",
+      "Arbeitsblatt Hygiene(1).pdf, S. 1–2"
+    ],
+    "note": ""
+  },
+  {
+    "id": "herzinsuffizienz",
+    "name": "Chronische Herzinsuffizienz (NYHA III)",
+    "field": "Innere Medizin",
+    "area": "Herz / Kreislauf",
+    "definition": "Chronische eingeschränkte Herzleistung. Der Schulfall beschreibt Belastungsdyspnoe, Flüssigkeitsretention und ausgeprägte Alltagsbeeinträchtigung.",
+    "symptoms": [
+      "Atemnot bei geringer Belastung",
+      "Ödeme und rasche Erschöpfung",
+      "Orthopnoe bzw. nächtliche Atembeschwerden im Fall"
+    ],
+    "assessment": [
+      "Ärztliche Stabilität und Belastungsfreigabe klären",
+      "Ruhe- und Belastungssymptome, Puls und Kreislauf beobachten",
+      "Funktionsniveau und alltagsbezogene Ziele erfassen"
+    ],
+    "goals": [
+      "Sichere dosierte Aktivität unter medizinischer Überwachung",
+      "Umgang mit Belastungssymptomen lernen",
+      "Selbstständigkeit und Teilhabe verbessern"
+    ],
+    "warnings": [
+      "Bei akuter Dekompensation, Ruhedyspnoe oder neu zunehmender Atemnot kein eigenständiges Training",
+      "Brustschmerzen, Synkope oder deutliche Kreislaufveränderung sofort medizinisch abklären"
+    ],
+    "exerciseIds": [
+      "relaxed-breathing",
+      "supported-walking"
+    ],
+    "sources": [
+      "ilias.php 29(2).pdf, S. 1–2"
+    ],
+    "note": "NYHA beschreibt eine funktionelle Einteilung, keine spezifische anatomische Ursache."
+  },
+  {
+    "id": "postthrombotisch",
+    "name": "Postthrombotisches Syndrom",
+    "field": "Innere Medizin",
+    "area": "Venensystem / Bein",
+    "definition": "Mögliche Spätfolge einer tiefen Venenthrombose mit chronisch gestörtem venösem Abfluss.",
+    "symptoms": [
+      "Schweregefühl und Schwellung",
+      "Chronische Beschwerden im betroffenen Bein",
+      "Mögliche Hautveränderungen"
+    ],
+    "assessment": [
+      "TVT-Vorgeschichte und aktuelle Gefäßdiagnostik beachten",
+      "Haut, Schwellung und Alltagsfunktion dokumentieren",
+      "Kompressionsversorgung nur unter Berücksichtigung der Verordnung erfassen"
+    ],
+    "goals": [
+      "Bewegungsfähigkeit und venösen Rückstrom unterstützen",
+      "Selbstmanagement und Hautbeobachtung fördern"
+    ],
+    "warnings": [
+      "Bei neuer einseitiger Schwellung oder plötzlich zunehmendem Schmerz: erneute TVT ärztlich ausschließen",
+      "Kompression nicht ohne individuelle Prüfung der Durchblutung"
+    ],
+    "exerciseIds": [
+      "ankle-pumps",
+      "walk-easy"
+    ],
+    "sources": [
+      "Fehlerdetektive_Venenerkrankungen(1).pdf, S. 1–4",
+      "fallbeispiel TVT II.docx, S. 1–2"
+    ],
+    "note": ""
+  },
+  {
+    "id": "knie-hygiene",
+    "name": "Postoperative Infektionswarnzeichen",
+    "field": "Hygiene / Prävention",
+    "area": "Operation / Knie",
+    "definition": "Lernsituation zur hygienischen Versorgung nach Knie-TEP: Fieber, Rötung und Schmerzen erfordern besondere Aufmerksamkeit.",
+    "symptoms": [
+      "Fieber und auffällige Wundrötung",
+      "Schmerzen und mögliche Überwärmung",
+      "Rückgang der Mobilisationsfähigkeit"
+    ],
+    "assessment": [
+      "Wunde nur im eigenen Kompetenzrahmen beobachten",
+      "Befunde dokumentieren und unverzüglich medizinisch weitergeben",
+      "Hygiene und Desinfektion von Kontaktflächen/Hilfsmitteln beachten"
+    ],
+    "goals": [
+      "Frühzeitiges Erkennen von Risiken",
+      "Kontamination vermeiden",
+      "Sichere interprofessionelle Zusammenarbeit"
+    ],
+    "warnings": [
+      "Bei Verdacht auf Infektion nicht einfach mit Routineübungen fortfahren",
+      "Ärztliche und pflegerische Anweisungen haben Vorrang"
+    ],
+    "exerciseIds": [],
+    "sources": [
+      "Hygiene LS 3.4(1).pdf, S. 3–6",
+      "Arbeitsblatt Hygiene(1).pdf, S. 1–2"
+    ],
+    "note": ""
+  },
+  {
+    "id": "knie-mt",
+    "name": "Passive Kniegelenkmobilisation (Technikthema)",
+    "field": "Physiotherapeutische Techniken",
+    "area": "Knie",
+    "definition": "Unterrichtsmaterial zu passiven Flexions- und Extensionsbewegungen und zu schmerzadaptierten Mobilisationsgriffen.",
+    "symptoms": [
+      "Eingeschränkte Beweglichkeit als mögliches Behandlungsproblem"
+    ],
+    "assessment": [
+      "Bewegungsrichtung, Bewegungsgefühl und Schmerzreaktion prüfen",
+      "Operations- und Gewebeschutz beachten"
+    ],
+    "goals": [
+      "Techniken mit korrekter Ausgangsstellung kennenlernen",
+      "Befundorientierte Entscheidung lernen"
+    ],
+    "warnings": [
+      "Nicht als Selbstbehandlungsanleitung geeignet",
+      "Bei frischer OP, Instabilität oder Kontraindikationen nur nach professioneller Freigabe"
+    ],
+    "exerciseIds": [],
+    "sources": [
+      "Knie MT.pdf, S. 1–7",
+      "Verbesserung der Stabilität, Koordination und Muskelkraft im Kniegelenk.pdf, S. 1–2"
+    ],
+    "note": "Ausbildungsinhalt zur manuellen Technik, keine allgemeine Therapieempfehlung."
+  }
+]
