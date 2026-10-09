@@ -150,6 +150,100 @@
 </nav>
 
 <div class="drawer" id="sourceDrawer"><div class="backdrop" id="sourceBackdrop"></div><aside class="drawer-panel"><button class="iconbtn" id="sourceClose" style="float:right">✕</button><div class="eyebrow">Transparente Quellen</div><h2 id="sourceTitle"></h2><div id="sourceBody"></div></aside></div>
-<script src="./app.js"></script>
+<!-- PHYSIOLEARN V7: NEUE LERNBEREICHE -->
+
+<section id="view-conditions" class="view">
+
+  <h2>Krankheitsbilder</h2>
+
+  <p>Definitionen, Befunde und Therapieansätze</p>
+
+  <input
+
+    id="conditionsSearch"
+
+    type="search"
+
+    placeholder="Krankheitsbild suchen..."
+
+  >
+
+  <select id="conditionsField">
+
+    <option value="">Alle Fachbereiche</option>
+
+  </select>
+
+  <div id="conditionsList" class="clinic-grid"></div>
+
+  <div id="conditionDetail"></div>
+
+</section>
+
+<section id="view-exercises" class="view">
+
+  <h2>Therapieübungen</h2>
+
+  <p>Übungen für die physiotherapeutische Praxis</p>
+
+  <input
+
+    id="exerciseSearch"
+
+    type="search"
+
+    placeholder="Übung suchen..."
+
+  >
+
+  <select id="exerciseCategory">
+
+    <option value="">Alle Kategorien</option>
+
+  </select>
+
+  <div id="exercisesList" class="clinic-grid"></div>
+
+  <div id="exerciseDetail"></div>
+
+</section>
+
+<section id="view-venousquiz" class="view">
+
+  <h2>Venenerkrankungen-Quiz</h2>
+
+  <p>25 Fragen zu TVT, CVI und Varikose</p>
+
+  <div id="venousQuizBox"></div>
+
+</section>
+
+<!-- ENDE PHYSIOLEARN V7 -->
+  <!-- PHYSIOLEARN V7 NAVIGATION -->
+
+<nav class="clinic-navigation" aria-label="Neue Lernbereiche">
+
+  <button type="button" data-view="conditions">
+
+    🩺 Krankheitsbilder
+
+  </button>
+
+  <button type="button" data-view="exercises">
+
+    🏋️ Therapieübungen
+
+  </button>
+
+  <button type="button" data-view="venousquiz">
+
+    🧠 Venen-Quiz
+
+  </button>
+
+</nav>
+
+<!-- ENDE V7 NAVIGATION -->
+  <script src="./app.js"></script>
 </body>
 </html>
