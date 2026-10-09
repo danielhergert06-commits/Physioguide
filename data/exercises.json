@@ -1,1 +1,487 @@
-
+[
+  {
+    "id": "interval-walk",
+    "name": "Intervall-Gehtraining",
+    "region": "Gefäße / Beine",
+    "category": "Ausdauer",
+    "purpose": "Gehleistung bei stabiler pAVK mit Claudicatio verbessern",
+    "steps": [
+      "Belastbarkeit und Warnzeichen vorab überprüfen",
+      "Auf ebener Strecke gehen; das vereinbarte Symptommuster beobachten",
+      "Gehen und Erholung wiederholen; Gehstrecke dokumentieren"
+    ],
+    "dose": "Individuell nach Gehtest und ärztlichem Trainingsplan; keine allgemeingültige Schmerzgrenze.",
+    "progression": "Gesamtgehzeit oder Gehstrecke anhand Verlauf und Beschwerden anpassen.",
+    "cautions": "Nicht bei akuter Ischämie, neuem Ruheschmerz, akuter kardialer Symptomatik oder ungeklärten Wunden beginnen.",
+    "conditions": [
+      "pavk"
+    ],
+    "sources": [
+      "Arbeitsauftrag 08.10.26.pdf; ilias.php 2(1).pdf"
+    ]
+  },
+  {
+    "id": "walking-diary",
+    "name": "Gehstrecken-Tagebuch",
+    "region": "Gefäße / Beine",
+    "category": "Selbstmanagement",
+    "purpose": "Fortschritte der Gehfähigkeit sichtbar machen",
+    "steps": [
+      "Startzeit, Gehstrecke und Pausen notieren",
+      "Beschwerden und mögliche Auslöser erfassen",
+      "Ergebnisse mit dem Therapieteam besprechen"
+    ],
+    "dose": "Bei durchgeführtem Gehtraining dokumentieren.",
+    "progression": "Verlauf anhand vergleichbarer Bedingungen prüfen.",
+    "cautions": "Keine eigenständige Belastungssteigerung bei neuen Warnzeichen.",
+    "conditions": [
+      "pavk"
+    ],
+    "sources": [
+      "Arbeitsauftrag 08.10.26.pdf; ilias.php 2(1).pdf"
+    ]
+  },
+  {
+    "id": "ankle-pumps",
+    "name": "Fußwippe im Sitzen",
+    "region": "Sprunggelenk",
+    "category": "Aktivierung",
+    "purpose": "Aktivierung der Unterschenkelmuskulatur und Gelenkbeweglichkeit",
+    "steps": [
+      "Aufrecht und sicher sitzen",
+      "Füße abwechselnd zur Nase ziehen und vom Körper wegstrecken",
+      "Langsam und ohne Pressatmung ausführen"
+    ],
+    "dose": "Beispiel: 1–2 Serien à 10–20 Bewegungen, individuell anpassen.",
+    "progression": "Bewegungsumfang oder Häufigkeit nach Verträglichkeit anpassen.",
+    "cautions": "Bei Verdacht auf TVT zuerst ärztliche Abklärung; bei pAVK mit Ruheschmerz oder kritischer Ischämie keine pauschale Anwendung.",
+    "conditions": [
+      "cvi",
+      "varikose",
+      "knie-postop",
+      "pavk"
+    ],
+    "sources": [
+      "Fehlerdetektive_Venenerkrankungen_Neues_Design 2.pdf",
+      "Arbeitsauftrag 08.10.26.pdf; ilias.php 2(1).pdf"
+    ]
+  },
+  {
+    "id": "heel-raise-supported",
+    "name": "Wadenheben mit Abstützen",
+    "region": "Unterschenkel",
+    "category": "Kräftigung",
+    "purpose": "Aktivierung der Wadenmuskelpumpe",
+    "steps": [
+      "Mit beiden Händen an stabiler Stütze stehen",
+      "Fersen kontrolliert anheben",
+      "Langsam absenken"
+    ],
+    "dose": "Beispiel: 1–2 Serien à 8–15 Wiederholungen, je nach Belastbarkeit.",
+    "progression": "Wiederholungen steigern, sofern sicher und symptomangepasst.",
+    "cautions": "Bei ungeklärter akuter Schwellung/TVT-Verdacht, kritischer Ischämie oder fehlender Standfähigkeit zuerst abklären.",
+    "conditions": [
+      "cvi",
+      "varikose"
+    ],
+    "sources": [
+      "Fehlerdetektive_Venenerkrankungen_Neues_Design 2.pdf"
+    ]
+  },
+  {
+    "id": "walk-easy",
+    "name": "Alltagsgehen in kurzen Abschnitten",
+    "region": "Beine / Hüfte",
+    "category": "Ausdauer",
+    "purpose": "Sichere Alltagsbewegung erhalten",
+    "steps": [
+      "Gut bewältigbare Route auswählen",
+      "In angenehmem Tempo gehen",
+      "Bei Bedarf planmäßige Pausen einbauen"
+    ],
+    "dose": "Beispiel: mehrere kurze Abschnitte; Dauer nach Ausgangsbefund.",
+    "progression": "Gesamtdauer langsam steigern, sofern verträglich.",
+    "cautions": "Nicht als Ersatz für ein gezielt dosiertes pAVK-Gehtraining verstehen.",
+    "conditions": [
+      "coxarthrose",
+      "cvi",
+      "varikose"
+    ],
+    "sources": [
+      "ilias.php 5.pdf",
+      "Fehlerdetektive_Venenerkrankungen_Neues_Design 2.pdf"
+    ]
+  },
+  {
+    "id": "sit-to-stand",
+    "name": "Aufstehen vom Stuhl",
+    "region": "Hüfte / Knie",
+    "category": "Kraft & Alltag",
+    "purpose": "Transfers und funktionelle Beinkraft üben",
+    "steps": [
+      "Stabilen Stuhl benutzen; Füße sicher aufstellen",
+      "Oberkörper leicht nach vorne neigen und kontrolliert aufstehen",
+      "Langsam wieder setzen"
+    ],
+    "dose": "Beispiel: 1–3 Serien à 5–10 Wiederholungen, symptomangepasst.",
+    "progression": "Sitzhöhe allmählich reduzieren oder Wiederholungen steigern.",
+    "cautions": "Bei OP-Vorgaben oder relevanten Gleichgewichtsproblemen individuell anpassen.",
+    "conditions": [
+      "coxarthrose"
+    ],
+    "sources": [
+      "ilias.php 5.pdf"
+    ]
+  },
+  {
+    "id": "hip-abduction-standing",
+    "name": "Hüftabduktion im Stand",
+    "region": "Hüfte",
+    "category": "Kräftigung",
+    "purpose": "Hüftabduktoren und Beckenstabilität trainieren",
+    "steps": [
+      "An stabiler Unterlage festhalten",
+      "Spielbein seitlich führen, Becken möglichst stabil",
+      "Kontrolliert zurückführen"
+    ],
+    "dose": "Beispiel: 1–2 Serien à 8–12 pro Seite.",
+    "progression": "Bewegung kontrollierter oder mit geringem Widerstand steigern.",
+    "cautions": "Schmerz und Balance beachten; nicht bei fehlender postoperativer Freigabe.",
+    "conditions": [
+      "coxarthrose"
+    ],
+    "sources": [
+      "ilias.php 5.pdf"
+    ]
+  },
+  {
+    "id": "hip-mobility-seated",
+    "name": "Sanfte Hüftmobilisation im Sitzen",
+    "region": "Hüfte",
+    "category": "Mobilisation",
+    "purpose": "Bewegung ohne große Standbelastung anbahnen",
+    "steps": [
+      "Auf stabilen Stuhl setzen",
+      "Hüfte innerhalb des angenehmen Bewegungsumfangs anheben und absenken",
+      "Bewegung langsam wiederholen"
+    ],
+    "dose": "Beispiel: 1–2 Minuten mit Pausen.",
+    "progression": "Bewegungsumfang nur nach Verträglichkeit erweitern.",
+    "cautions": "Schmerzhafte Endpositionen vermeiden; ggf. ärztliche Einschränkungen.",
+    "conditions": [
+      "coxarthrose"
+    ],
+    "sources": [
+      "ilias.php 5.pdf"
+    ]
+  },
+  {
+    "id": "bed-to-sit-education",
+    "name": "Bettkante: angeleiteter Transfer",
+    "region": "Knie / Becken",
+    "category": "Alltag & Mobilisation",
+    "purpose": "Schrittweise sicherer Positionswechsel",
+    "steps": [
+      "Ärztliche Freigabe, Belastungsstatus und Kreislauf überprüfen",
+      "Bewegungsfolge erklären, Stützen und Assistenz sichern",
+      "In Etappen an die Bettkante kommen und Befinden kontrollieren"
+    ],
+    "dose": "Nur im begleiteten Therapiesetting, Umfang individuell.",
+    "progression": "Assistenz reduzieren, wenn sicher und freigegeben.",
+    "cautions": "Bei frischer Beckenringverletzung und Knie-OP nur entsprechend OP- und Belastungsvorgaben.",
+    "conditions": [
+      "knie-postop",
+      "beckenringfraktur"
+    ],
+    "sources": [
+      "Lernsituation 3.4(5).pdf; ilias.php 24.pdf",
+      "Arbeitsauftrag 30.04.2026 Daniel Hergert.pdf"
+    ]
+  },
+  {
+    "id": "knee-isometric",
+    "name": "Quadrizeps anspannen in Rückenlage",
+    "region": "Knie",
+    "category": "Aktivierung",
+    "purpose": "Quadrizepsansteuerung im frühen postoperativen Verlauf",
+    "steps": [
+      "Bein entsprechend Lagerungs-/OP-Vorgaben positionieren",
+      "Oberschenkelvorderseite bewusst anspannen",
+      "Entspannen und auf Schmerzen achten"
+    ],
+    "dose": "Individuell, nach Freigabe; z. B. kurze Aktivierungen mit Pausen.",
+    "progression": "Aktive Bewegung nur nach Freigabe.",
+    "cautions": "Die Fallunterlage benennt den Eingriff nicht eindeutig; deshalb keine allgemeine OP-Freigabe.",
+    "conditions": [
+      "knie-postop"
+    ],
+    "sources": [
+      "Lernsituation 3.4(5).pdf; ilias.php 24.pdf"
+    ]
+  },
+  {
+    "id": "weightshift-supported",
+    "name": "Seitliche Gewichtsverlagerung am Stuhl",
+    "region": "Hüfte / Knie",
+    "category": "Gleichgewicht",
+    "purpose": "Kontrollierte Gewichtsübernahme und Beckenstabilität schulen",
+    "steps": [
+      "Hinter einen stabilen Stuhl stellen und leicht sichern",
+      "Gewicht langsam von einem Bein aufs andere verlagern",
+      "Becken möglichst ruhig und waagerecht halten"
+    ],
+    "dose": "Beispiel aus Unterrichtsplan: 10–15 Wiederholungen je Seite, 2–3 Durchgänge.",
+    "progression": "Haltezeit und Standanforderung schrittweise verändern.",
+    "cautions": "Operierte Seite nur entsprechend erlaubter Belastung; bei Sturzgefahr therapeutisch sichern.",
+    "conditions": [
+      "vkb-rekonstruktion",
+      "patellaluxation"
+    ],
+    "sources": [
+      "Trainingsplan (Eske, Alina, Nika, Mara-Luis, Maryam) 2.pdf, S. 1"
+    ]
+  },
+  {
+    "id": "gait-with-aids",
+    "name": "Gangschule mit Unterarmgehstützen",
+    "region": "Knie / Hüfte",
+    "category": "Gangschule",
+    "purpose": "Hilfsmittelnutzung und sichere Fortbewegung üben",
+    "steps": [
+      "Gehstützenhöhe und Griffe kontrollieren",
+      "Vorgegebenes Entlastungs- bzw. Gangmuster üben",
+      "Kurze ebene Strecke mit therapeutischer Sicherung absolvieren"
+    ],
+    "dose": "Individuell nach Belastungsfreigabe und Ermüdung.",
+    "progression": "Schrittweise längere Strecken oder andere sichere Untergründe.",
+    "cautions": "Teil-/Vollbelastung nicht eigenständig ändern; bei Schwindel oder Schmerzen abbrechen.",
+    "conditions": [
+      "patellaluxation",
+      "knie-tep"
+    ],
+    "sources": [
+      "Trainingsplan (Elmira, Saskia, David, Noah, Yasmin).pdf, S. 2",
+      "Lernsituation 3.5 + Fragen (1).pdf, S. 1–2"
+    ]
+  },
+  {
+    "id": "knee-active-extension",
+    "name": "Aktive Knieextension im erlaubten Bewegungsbereich",
+    "region": "Knie",
+    "category": "Mobilisation",
+    "purpose": "Aktive Streckkontrolle und Quadrizepsaktivierung fördern",
+    "steps": [
+      "Aufrecht und gut gesichert sitzen",
+      "Unterschenkel kontrolliert in Richtung Streckung führen",
+      "Langsam in Ausgangsstellung zurückkehren"
+    ],
+    "dose": "Beispiel: wenige kontrollierte Wiederholungen je nach Befund.",
+    "progression": "Später mehr Wiederholungen oder abgestuften Widerstand unter fachlicher Anleitung.",
+    "cautions": "Orthese, Beuge-/Strecklimit und postoperative Vorgaben unbedingt einhalten.",
+    "conditions": [
+      "knie-tep",
+      "vkb-rekonstruktion",
+      "gonarthrose"
+    ],
+    "sources": [
+      "Knie MT.pdf, S. 1–4",
+      "Lernsituation 3.1  4(1).pdf, S. 1"
+    ]
+  },
+  {
+    "id": "step-up-low",
+    "name": "Niedrige Stufe auf- und absteigen",
+    "region": "Knie / Hüfte",
+    "category": "ADL",
+    "purpose": "Treppe und Bordsteinkante kontrolliert bewältigen",
+    "steps": [
+      "An niedriger Stufe mit Geländer oder Sicherung beginnen",
+      "Schrittfolge passend zur Belastungsfreigabe wählen",
+      "Auf- und Absteigen ruhig und kontrolliert üben"
+    ],
+    "dose": "Im Schulbeispiel Stufenhöhe ungefähr 8–12 cm; nur bei passender Belastbarkeit.",
+    "progression": "Stufenhöhe oder Eigenständigkeit erhöhen, erst nach sicherer Basis.",
+    "cautions": "Nach OP nur mit erlaubter Belastung und ggf. Hilfsmittel; hohe Sturzgefahr absichern.",
+    "conditions": [
+      "gonarthrose",
+      "vkb-rekonstruktion"
+    ],
+    "sources": [
+      "Trainingsplan (Eske, Alina, Nika, Mara-Luis, Maryam) 2.pdf, S. 3"
+    ]
+  },
+  {
+    "id": "gait-obstacle-course",
+    "name": "Gehparcours über wechselnde Untergründe",
+    "region": "Ganzkörper / Beine",
+    "category": "Gangschule",
+    "purpose": "Ganganpassung, Koordination und Trittsicherheit trainieren",
+    "steps": [
+      "Auf glattem Boden beginnen",
+      "Über eine dünne Matte und später weicheres Material gehen",
+      "Kleine Schwellen oder Hindernisse kontrolliert überwinden"
+    ],
+    "dose": "Je Station kurze sichere Strecken; Pausen individuell.",
+    "progression": "Weitere Untergründe oder Richtungswechsel bei ausreichender Sicherheit.",
+    "cautions": "Geeignete Sicherung und Hilfsmittel; erst bei ausreichender Gangstabilität.",
+    "conditions": [
+      "gonarthrose"
+    ],
+    "sources": [
+      "Trainingsplan (Eske, Alina, Nika, Mara-Luis, Maryam) 2.pdf, S. 2–3",
+      "Trainingsplan (Thomas Celina Emily Raphael Teske).pdf, S. 1–2"
+    ]
+  },
+  {
+    "id": "balance-supported",
+    "name": "Gesicherter Einbeinstand",
+    "region": "Knie / Hüfte",
+    "category": "Gleichgewicht",
+    "purpose": "Standstabilität und propriozeptive Kontrolle verbessern",
+    "steps": [
+      "Neben stabiler Haltemöglichkeit stehen",
+      "Ein Bein nur so weit anheben, wie sicher möglich",
+      "Rumpf stabil halten und Seite wechseln"
+    ],
+    "dose": "Unterrichtsbeispiel: 20–30 Sekunden, individuell kürzer möglich.",
+    "progression": "Weniger Handkontakt; später anspruchsvollerer Untergrund bei Sicherung.",
+    "cautions": "Nicht bei fehlender erlaubter Vollbelastung; Sturzgefahr sorgfältig absichern.",
+    "conditions": [
+      "gonarthrose",
+      "vkb-rekonstruktion"
+    ],
+    "sources": [
+      "Verbesserung der Stabilität, Koordination und Muskelkraft im Kniegelenk.pdf, S. 3",
+      "Unbenanntes Notizbuch 3.pdf, S. 1"
+    ]
+  },
+  {
+    "id": "bed-mobility-guided",
+    "name": "Angeleitete Positionswechsel im Bett",
+    "region": "Rumpf / Beine",
+    "category": "ADL",
+    "purpose": "Eigenaktivität und Druckentlastung bei Immobilität unterstützen",
+    "steps": [
+      "Bewegungsziel erklären und Hilfsbedarf einschätzen",
+      "Positionswechsel ruhig und innerhalb der medizinischen Vorgaben anleiten",
+      "Hautbelastete Bereiche nicht reiben oder massieren"
+    ],
+    "dose": "Häufigkeit und Lagerung im interprofessionellen Plan festlegen.",
+    "progression": "Mehr Eigenaktivität bis zum sicheren Sitz an der Bettkante.",
+    "cautions": "Bei Wundproblemen und Kreislaufrisiken eng mit Pflege und Medizin abstimmen.",
+    "conditions": [
+      "dekubitus",
+      "knie-tep"
+    ],
+    "sources": [
+      "Lernsituation 3.4(6).pdf, S. 1–2",
+      "Arbeitsblatt Hygiene(1).pdf, S. 1–2"
+    ]
+  },
+  {
+    "id": "supported-walking",
+    "name": "Kurzes begleitetes Gehen bei stabiler Herzinsuffizienz",
+    "region": "Herz / Beine",
+    "category": "Ausdauer",
+    "purpose": "Alltagsmobilität dosiert wieder aufnehmen",
+    "steps": [
+      "Ärztliche Belastungsfreigabe und Symptome prüfen",
+      "Kurze gut gesicherte Gehstrecke durchführen",
+      "Beschwerden und Kreislaufreaktion beobachten"
+    ],
+    "dose": "Keine pauschale Zeit- oder Intensitätsvorgabe; individuell festlegen.",
+    "progression": "Gehdauer nur bei stabiler Verträglichkeit steigern.",
+    "cautions": "Nicht bei akuter Dekompensation, Brustschmerz, Ruheatemnot oder Synkope.",
+    "conditions": [
+      "herzinsuffizienz"
+    ],
+    "sources": [
+      "ilias.php 29(2).pdf, S. 1–2"
+    ]
+  },
+  {
+    "id": "relaxed-breathing",
+    "name": "Ruhige Atemwahrnehmung im Sitz",
+    "region": "Thorax",
+    "category": "Atemtherapie",
+    "purpose": "Atemrhythmus und Körperwahrnehmung beobachten",
+    "steps": [
+      "Bequemen, ggf. aufrechten Sitz einnehmen",
+      "Auf ruhige, nicht forcierte Atmung achten",
+      "Kurze Pausen und Symptombeobachtung"
+    ],
+    "dose": "Kurz und symptomorientiert, ohne starre Atemvorgaben.",
+    "progression": "Mit alltagsnahen Bewegungen verbinden, sofern verträglich.",
+    "cautions": "Keine Atemübung als Ersatz für medizinische Abklärung neuer Atemnot.",
+    "conditions": [
+      "herzinsuffizienz"
+    ],
+    "sources": [
+      "ilias.php 29(2).pdf, S. 1–2"
+    ]
+  },
+  {
+    "id": "pmr-short",
+    "name": "Progressive Muskelentspannung nach Jacobson – Kurzform",
+    "region": "Ganzkörper",
+    "category": "Entspannung",
+    "purpose": "Anspannung und Entspannung bewusst unterscheiden",
+    "steps": [
+      "In angenehmer Position beginnen und ruhig atmen",
+      "Arme, Gesicht, Nacken, Schultern/Rumpf und Beine kurz und moderat anspannen",
+      "Spannung lösen und das Nachspüren bewusst wahrnehmen"
+    ],
+    "dose": "Unterrichtsangabe: ca. 10–15 Minuten für die Kurzform.",
+    "progression": "Später differenziertere Muskelgruppen, sofern gewünscht.",
+    "cautions": "Schmerzhafte oder frisch operierte Regionen nicht kräftig anspannen; Vorgehen anpassen.",
+    "conditions": [],
+    "sources": [
+      "Progressive Muskelentspannung nach Jacobson (1).pdf, S. 1–2"
+    ]
+  },
+  {
+    "id": "sit-to-stand-graded",
+    "name": "Aufstehen und Hinsetzen – Transfertraining",
+    "region": "Beine",
+    "category": "ADL",
+    "purpose": "Sichere Transfers und funktionelle Beinkraft fördern",
+    "steps": [
+      "Stabilen Stuhl nutzen; Füße passend positionieren",
+      "Kontrolliert aufstehen und langsam wieder hinsetzen",
+      "Bei Bedarf Armlehnen oder therapeutische Sicherung einsetzen"
+    ],
+    "dose": "Kleine Anzahl sauberer Wiederholungen nach Belastbarkeit.",
+    "progression": "Armhilfe schrittweise reduzieren oder Wiederholungen erhöhen.",
+    "cautions": "Bei akutem Schwindel oder unzureichender OP-Freigabe nicht selbstständig durchführen.",
+    "conditions": [
+      "gonarthrose",
+      "knie-tep"
+    ],
+    "sources": [
+      "1 .pdf, S. 1",
+      "Arbeitsauftrag- Herrn Weber.pdf, S. 1–2"
+    ]
+  },
+  {
+    "id": "pavk-walk-diary",
+    "name": "Gehstreckenprotokoll bei pAVK",
+    "region": "Beine",
+    "category": "Patientenedukation",
+    "purpose": "Gehfortschritt und Alltagsrelevanz dokumentieren",
+    "steps": [
+      "Schmerzfreie und maximale Gehstrecke nach geeignetem Test festhalten",
+      "Pausen und wahrgenommene Beschwerden protokollieren",
+      "Alltagsziel, z. B. Einkaufsweg, regelmäßig vergleichen"
+    ],
+    "dose": "Kein festes Trainingsvolumen; orientiert sich an individuellem ärztlichem Plan.",
+    "progression": "Nachfolgende Einträge in der Verlaufskontrolle auswerten.",
+    "cautions": "Neue Ruheschmerzen, Wunden oder akute Ischämiezeichen ärztlich abklären.",
+    "conditions": [
+      "pavk"
+    ],
+    "sources": [
+      "Erstbehandlung bei pAVK.pdf, S. 1–5",
+      "Arbeitsauftrag 08.10.26.pdf, S. 1–3"
+    ]
+  }
+]
