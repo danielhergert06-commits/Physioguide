@@ -1,1 +1,154 @@
 
+[
+  {
+    "id": "vene-01",
+    "statement": "Eine TVT betrifft eine tiefe Vene.",
+    "answer": true,
+    "explanation": "Eine TVT liegt im tiefen Venensystem."
+  },
+  {
+    "id": "vene-02",
+    "statement": "Krampfadern liegen im tiefen Venensystem.",
+    "answer": false,
+    "explanation": "Varikosen betreffen das oberflächliche Venensystem."
+  },
+  {
+    "id": "vene-03",
+    "statement": "Bei einer oberflächlichen Venenthrombose kann ein harter, schmerzhafter Venenstrang tastbar sein.",
+    "answer": true,
+    "explanation": "Dies kann ein klinisches Zeichen sein."
+  },
+  {
+    "id": "vene-04",
+    "statement": "Eine CVI kann zu Hautveränderungen am Unterschenkel führen.",
+    "answer": true,
+    "explanation": "Hautveränderungen können bei fortgeschrittener CVI auftreten."
+  },
+  {
+    "id": "vene-05",
+    "statement": "Eine TVT kann keine Lungenembolie verursachen.",
+    "answer": false,
+    "explanation": "Eine Lungenembolie ist eine mögliche Komplikation."
+  },
+  {
+    "id": "vene-06",
+    "statement": "Die Wadenmuskelpumpe unterstützt den venösen Rückstrom.",
+    "answer": true,
+    "explanation": "Die Muskelpumpe unterstützt den Rückstrom."
+  },
+  {
+    "id": "vene-07",
+    "statement": "Bei Verdacht auf TVT reicht Venengymnastik als Behandlung aus.",
+    "answer": false,
+    "explanation": "TVT-Verdacht muss ärztlich abgeklärt werden."
+  },
+  {
+    "id": "vene-08",
+    "statement": "Eine oberflächliche Venenthrombose kann sich in Richtung tiefer Venen ausbreiten.",
+    "answer": true,
+    "explanation": "Die Ausbreitung ist möglich."
+  },
+  {
+    "id": "vene-09",
+    "statement": "Varikose und CVI sind genau dasselbe.",
+    "answer": false,
+    "explanation": "Varikose bedeutet Krampfadern, CVI eine chronische venöse Abflussstörung."
+  },
+  {
+    "id": "vene-10",
+    "statement": "Bei einer CVI kann ein Ulcus cruris venosum entstehen.",
+    "answer": true,
+    "explanation": "Ein venöses Unterschenkelgeschwür ist eine mögliche Spätfolge."
+  },
+  {
+    "id": "vene-11",
+    "statement": "Eine TVT kann mit wenigen Beschwerden auftreten.",
+    "answer": true,
+    "explanation": "TVT ist nicht immer stark symptomatisch."
+  },
+  {
+    "id": "vene-12",
+    "statement": "Jede einseitige Beinschwellung beweist eine TVT.",
+    "answer": false,
+    "explanation": "Einseitige Schwellung hat mehrere mögliche Ursachen."
+  },
+  {
+    "id": "vene-13",
+    "statement": "D-Dimere allein beweisen eine TVT.",
+    "answer": false,
+    "explanation": "Die Bewertung erfolgt mit klinischer Wahrscheinlichkeit und gegebenenfalls Ultraschall."
+  },
+  {
+    "id": "vene-14",
+    "statement": "Kompressionsultraschall kann zur TVT-Diagnostik eingesetzt werden.",
+    "answer": true,
+    "explanation": "Kompressionssonografie ist ein diagnostisches Verfahren."
+  },
+  {
+    "id": "vene-15",
+    "statement": "Sichtbare Krampfadern sind typisch für Varikose.",
+    "answer": true,
+    "explanation": "Sichtbare erweiterte Venen sprechen für Varikose."
+  },
+  {
+    "id": "vene-16",
+    "statement": "Bei CVI können Ödeme auftreten.",
+    "answer": true,
+    "explanation": "Ödeme gehören zu möglichen Befunden."
+  },
+  {
+    "id": "vene-17",
+    "statement": "Nach TVT kann ein postthrombotisches Syndrom auftreten.",
+    "answer": true,
+    "explanation": "Dies ist eine mögliche Spätfolge."
+  },
+  {
+    "id": "vene-18",
+    "statement": "Eine oberflächliche Venenthrombose ist immer völlig ungefährlich.",
+    "answer": false,
+    "explanation": "Ausbreitung und Komplikationen sind je nach Befund möglich."
+  },
+  {
+    "id": "vene-19",
+    "statement": "Länge und Lage einer oberflächlichen Venenthrombose beeinflussen die Therapie.",
+    "answer": true,
+    "explanation": "Ausdehnung und Lokalisation sind klinisch relevant."
+  },
+  {
+    "id": "vene-20",
+    "statement": "Hautpflege spielt bei CVI keine Rolle.",
+    "answer": false,
+    "explanation": "Hautpflege ist Teil der Versorgung."
+  },
+  {
+    "id": "vene-21",
+    "statement": "Langes unbewegtes Sitzen aktiviert die Wadenmuskelpumpe besonders gut.",
+    "answer": false,
+    "explanation": "Gehen und Fußbewegungen aktivieren die Muskelpumpe."
+  },
+  {
+    "id": "vene-22",
+    "statement": "Varikose kann eine oberflächliche Venenthrombose begünstigen.",
+    "answer": true,
+    "explanation": "Varikose ist ein möglicher Risikofaktor."
+  },
+  {
+    "id": "vene-23",
+    "statement": "Bei CVI können bräunliche Hautveränderungen auftreten.",
+    "answer": true,
+    "explanation": "Hämosiderinbedingte Veränderungen können auftreten."
+  },
+  {
+    "id": "vene-24",
+    "statement": "Bei TVT-Verdacht sollte zuerst das schmerzende Bein kräftig massiert werden.",
+    "answer": false,
+    "explanation": "TVT-Verdacht bedarf ärztlicher Abklärung, keine kräftige Massage."
+  },
+  {
+    "id": "vene-25",
+    "statement": "Kompression ist für jede Person ohne Prüfung automatisch geeignet.",
+    "answer": false,
+    "explanation": "Kompression setzt eine individuelle Prüfung möglicher Gegenanzeigen voraus."
+  }
+]
+
