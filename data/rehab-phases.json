@@ -509,5 +509,488 @@
       }
     ]
   }
+  
+,
+{
+  "conditionId": "hueft-tep",
+  "phases": [
+    {
+      "name": "Phase 1 – Frühmobilisation",
+      "period": "Erste postoperative Tage bis ca. Woche 2",
+      "goals": ["Sichere Transfers", "Gangschule", "Muskelaktivierung", "Komplikationsprävention"],
+      "exercises": [
+        {
+          "name": "Fußpumpe",
+          "position": "Rückenlage oder Sitz",
+          "steps": ["Fußspitzen langsam anziehen", "Fußspitzen wieder wegdrücken"],
+          "dose": "20 Wiederholungen, mehrmals täglich",
+          "purpose": "Aktivierung der Wadenmuskelpumpe"
+        },
+        {
+          "name": "Gesäßmuskulatur anspannen",
+          "position": "Rückenlage",
+          "steps": ["Gesäßmuskulatur beidseitig anspannen", "5 Sekunden halten", "Entspannen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Frühe Muskelaktivierung"
+        },
+        {
+          "name": "Gangschule",
+          "position": "Stand mit verordnetem Hilfsmittel",
+          "steps": ["Sicheren Stand herstellen", "Mit freigegebener Belastung gehen", "Schrittfolge kontrollieren"],
+          "dose": "Mehrere kurze Gehstrecken",
+          "purpose": "Sichere Mobilisation"
+        }
+      ],
+      "cautions": ["Zugangsspezifische Luxationsregeln beachten", "Ärztliche Belastungsfreigabe prüfen", "Wunde und Kreislauf kontrollieren"],
+      "progressionCriteria": ["Sichere Transfers", "Verbesserte Gangqualität", "Gute Belastungsverträglichkeit"]
+    },
+    {
+      "name": "Phase 2 – Kraft und Alltagsfunktion",
+      "period": "Ab ca. Woche 2–12, individuell",
+      "goals": ["Hüftkraft verbessern", "Gangbild normalisieren", "Alltagssicherheit steigern"],
+      "exercises": [
+        {
+          "name": "Hüftabduktion im Stand",
+          "position": "Stand mit Festhalten",
+          "steps": ["Bein kontrolliert seitlich führen", "Becken stabil halten", "Langsam zurückführen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Kräftigung der Hüftabduktoren"
+        },
+        {
+          "name": "Aufstehen vom Stuhl",
+          "position": "Sitz auf erhöhtem Stuhl",
+          "steps": ["Füße aufstellen", "Kontrolliert aufrichten", "Langsam wieder hinsetzen"],
+          "dose": "2 Sätze mit 8–12 Wiederholungen",
+          "purpose": "ADL und funktionelle Kraft"
+        }
+      ],
+      "cautions": ["Bewegungsrestriktionen des Operateurs beachten", "Übungen entsprechend Kraft, Schmerz und Heilung steigern"],
+      "progressionCriteria": ["Sicheres Gehen", "Verbesserte Muskelkraft", "Selbstständigere Alltagsaktivitäten"]
+    }
+  ]
+},
+{
+  "conditionId": "meniskusrefixation",
+  "phases": [
+    {
+      "name": "Phase 1 – Schutz der Meniskusnaht",
+      "period": "Frühe postoperative Wochen laut OP-Protokoll",
+      "goals": ["Naht schützen", "Schwellung reduzieren", "Quadrizeps aktivieren"],
+      "exercises": [
+        {
+          "name": "Quadrizeps-Isometrie",
+          "position": "Rückenlage",
+          "steps": ["Oberschenkel anspannen", "5 Sekunden halten", "Entspannen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Muskelaktivierung ohne größere Kniebewegung"
+        },
+        {
+          "name": "Assistierte Kniebewegung",
+          "position": "Rückenlage",
+          "steps": ["Ferse langsam gleiten lassen", "Nur bis zur erlaubten Flexion bewegen", "Kontrolliert zurückführen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Beweglichkeit im freigegebenen Bereich"
+        }
+      ],
+      "cautions": ["Belastungs- und Flexionsgrenzen sind naht- und OP-abhängig", "Keine tiefen belasteten Kniebeugen ohne Freigabe", "Keine frühen Dreh- und Pivotbewegungen"],
+      "progressionCriteria": ["Gute Schwellungskontrolle", "Quadrizepsaktivierung", "Freigabe zum Belastungsaufbau"]
+    },
+    {
+      "name": "Phase 2 – Belastungsaufbau",
+      "period": "Nach Freigabe und funktionellen Kriterien",
+      "goals": ["Kraft steigern", "Gangbild verbessern", "Beinachsenkontrolle"],
+      "exercises": [
+        {
+          "name": "Sit-to-Stand",
+          "position": "Sitz auf stabilem Stuhl",
+          "steps": ["Füße aufstellen", "Kontrolliert aufstehen", "Langsam hinsetzen"],
+          "dose": "2 Sätze mit 8–12 Wiederholungen",
+          "purpose": "Funktionelle Kräftigung"
+        },
+        {
+          "name": "Gewichtsverlagerung",
+          "position": "Stand mit Sicherung",
+          "steps": ["Gewicht langsam auf das operierte Bein verlagern", "Beinachse kontrollieren", "Zur Mitte zurückkehren"],
+          "dose": "2 Sätze mit 12 Wiederholungen",
+          "purpose": "Belastungsübernahme"
+        }
+      ],
+      "cautions": ["Nur nach Freigabe für Belastung und Bewegungsausmaß", "Sportliche Drehbelastungen erst nach spezifischer Rehabilitation"],
+      "progressionCriteria": ["Normales Gangbild", "Gute Beinachsenkontrolle", "Keine relevante Reizreaktion"]
+    }
+  ]
+},
+{
+  "conditionId": "schenkelhalsfraktur",
+  "phases": [
+    {
+      "name": "Phase 1 – Frühmobilisation",
+      "period": "Nach Operation oder ärztlicher Stabilitätsbeurteilung",
+      "goals": ["Komplikationen vermeiden", "Transfers ermöglichen", "Sichere Mobilität"],
+      "exercises": [
+        {
+          "name": "Fußpumpe",
+          "position": "Sitz oder Rückenlage",
+          "steps": ["Füße langsam anziehen und wegdrücken"],
+          "dose": "20 Wiederholungen",
+          "purpose": "Muskelpumpenaktivierung"
+        },
+        {
+          "name": "Transfer Bett zu Stuhl",
+          "position": "Bettkante",
+          "steps": ["Aufsetzen mit Unterstützung", "Sicheren Stand herstellen", "Mit Hilfsmittel zum Stuhl wechseln"],
+          "dose": "Mehrmals täglich nach Verträglichkeit",
+          "purpose": "Alltagsmobilität"
+        }
+      ],
+      "cautions": ["Osteosynthese oder Prothese unterscheiden", "Belastungsfreigabe beachten", "Sturzrisiko und Kreislauf prüfen"],
+      "progressionCriteria": ["Sichere Transfers", "Medizinisch freigegebene Belastbarkeit"]
+    },
+    {
+      "name": "Phase 2 – Gang und Selbstständigkeit",
+      "period": "Nach Stabilität und funktionellem Fortschritt",
+      "goals": ["Beinkraft verbessern", "Sicheres Gehen", "Sturzrisiko reduzieren"],
+      "exercises": [
+        {
+          "name": "Sit-to-Stand",
+          "position": "Stabiler Stuhl",
+          "steps": ["Füße aufstellen", "Mit geeigneter Unterstützung aufstehen", "Kontrolliert hinsetzen"],
+          "dose": "2 Sätze mit 8 Wiederholungen",
+          "purpose": "Transferfähigkeit und Kraft"
+        },
+        {
+          "name": "Gewichtsverlagerung",
+          "position": "Stand mit Sicherung",
+          "steps": ["Gewicht innerhalb der Belastungsfreigabe verlagern", "Auf stabilen Stand achten"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Stand- und Gangsicherheit"
+        }
+      ],
+      "cautions": ["Belastung hängt von Frakturversorgung und Heilung ab", "Keine ungesicherten Gleichgewichtsübungen"],
+      "progressionCriteria": ["Verbesserte Gehfähigkeit", "Sichere Alltagsbewegungen"]
+    }
+  ]
+},
+{
+  "conditionId": "hueftdysplasie",
+  "phases": [
+    {
+      "name": "Phase 1 – Konservative Therapie",
+      "period": "Symptomorientiert bei Erwachsenen",
+      "goals": ["Hüftstabilität fördern", "Belastbarkeit verbessern", "Schmerzmanagement"],
+      "exercises": [
+        {
+          "name": "Isometrische Hüftabduktion",
+          "position": "Sitz",
+          "steps": ["Leicht gegen einen Gurt oder die Hände nach außen drücken", "Becken stabil halten", "Spannung lösen"],
+          "dose": "2 Sätze mit 10 Wiederholungen, 5 Sekunden halten",
+          "purpose": "Aktivierung der Hüftabduktoren"
+        },
+        {
+          "name": "Kontrolliertes Aufstehen",
+          "position": "Sitz",
+          "steps": ["Füße aufstellen", "Kontrolliert aufstehen", "Langsam hinsetzen"],
+          "dose": "2 Sätze mit 8–12 Wiederholungen",
+          "purpose": "Alltagskraft verbessern"
+        }
+      ],
+      "cautions": ["Keine schmerzhaften Endstellungen erzwingen", "Strukturelle Instabilität und individuelle Beschwerden berücksichtigen"],
+      "progressionCriteria": ["Bessere Belastungsverträglichkeit", "Verbesserte Bewegungskontrolle"]
+    }
+  ]
+},
+{
+  "conditionId": "beckenringfraktur",
+  "phases": [
+    {
+      "name": "Phase 1 – Schutz und Mobilisation",
+      "period": "Nach Stabilisierung und ärztlicher Freigabe",
+      "goals": ["Frakturstabilisierung schützen", "Sichere Transfers", "Immobilitätsfolgen reduzieren"],
+      "exercises": [
+        {
+          "name": "Fußbewegungen",
+          "position": "Rückenlage",
+          "steps": ["Füße langsam anziehen", "Füße wegdrücken"],
+          "dose": "20 Wiederholungen",
+          "purpose": "Aktive Bewegung bei reduzierter Mobilität"
+        },
+        {
+          "name": "Angeleiteter Transfer",
+          "position": "Bett",
+          "steps": ["Erlaubte Bewegungen vorbereiten", "Mit Hilfe aufsetzen", "Transfer nach ärztlichen Vorgaben durchführen"],
+          "dose": "Nach funktioneller und medizinischer Belastbarkeit",
+          "purpose": "Selbstständigkeit verbessern"
+        }
+      ],
+      "cautions": ["Instabile Fraktur und Fixateur externe erfordern individuelle Vorgaben", "Keine pauschale Belastungssteigerung", "Pin-Stellen auf Auffälligkeiten kontrollieren"],
+      "progressionCriteria": ["Stabile Fraktursituation", "Ärztliche Freigabe", "Sichere Transfers"]
+    },
+    {
+      "name": "Phase 2 – Funktioneller Belastungsaufbau",
+      "period": "Nach nachgewiesener Stabilität und Freigabe",
+      "goals": ["Gangfähigkeit verbessern", "Kraft aufbauen", "Alltagssicherheit"],
+      "exercises": [
+        {
+          "name": "Gewichtsverlagerung",
+          "position": "Gesicherter Stand",
+          "steps": ["Gewicht entsprechend Freigabe verlagern", "Becken stabil halten", "Zur Mitte zurückkehren"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Vorbereitung auf funktionelle Belastung"
+        },
+        {
+          "name": "Gangschule",
+          "position": "Stand mit geeignetem Hilfsmittel",
+          "steps": ["Belastungsvorgaben prüfen", "Schrittfolge üben", "Kurze Strecken unter Sicherung gehen"],
+          "dose": "Mehrere kurze Strecken nach Freigabe",
+          "purpose": "Sicheres Gehen"
+        }
+      ],
+      "cautions": ["Nur nach Stabilitäts- und Belastungsfreigabe", "Schmerzen, Infektzeichen und neurologische Auffälligkeiten beachten"],
+      "progressionCriteria": ["Verbesserte Gangqualität", "Gute Belastungsverträglichkeit", "Frakturheilung ärztlich bestätigt"]
+    }
+  ]
+}
+
+,
+{
+  "conditionId": "hueft-tep",
+  "phases": [
+    {
+      "name": "Phase 1 – Frühmobilisation",
+      "period": "Erste postoperative Tage bis ca. Woche 2",
+      "goals": ["Sichere Transfers", "Gangschule", "Muskelaktivierung", "Komplikationsprävention"],
+      "exercises": [
+        {
+          "name": "Fußpumpe",
+          "position": "Rückenlage oder Sitz",
+          "steps": ["Fußspitzen langsam anziehen", "Fußspitzen wieder wegdrücken"],
+          "dose": "20 Wiederholungen, mehrmals täglich",
+          "purpose": "Aktivierung der Wadenmuskelpumpe"
+        },
+        {
+          "name": "Gesäßmuskulatur anspannen",
+          "position": "Rückenlage",
+          "steps": ["Gesäßmuskulatur beidseitig anspannen", "5 Sekunden halten", "Entspannen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Frühe Muskelaktivierung"
+        },
+        {
+          "name": "Gangschule",
+          "position": "Stand mit verordnetem Hilfsmittel",
+          "steps": ["Sicheren Stand herstellen", "Mit freigegebener Belastung gehen", "Schrittfolge kontrollieren"],
+          "dose": "Mehrere kurze Gehstrecken",
+          "purpose": "Sichere Mobilisation"
+        }
+      ],
+      "cautions": ["Zugangsspezifische Luxationsregeln beachten", "Ärztliche Belastungsfreigabe prüfen", "Wunde und Kreislauf kontrollieren"],
+      "progressionCriteria": ["Sichere Transfers", "Verbesserte Gangqualität", "Gute Belastungsverträglichkeit"]
+    },
+    {
+      "name": "Phase 2 – Kraft und Alltagsfunktion",
+      "period": "Ab ca. Woche 2–12, individuell",
+      "goals": ["Hüftkraft verbessern", "Gangbild normalisieren", "Alltagssicherheit steigern"],
+      "exercises": [
+        {
+          "name": "Hüftabduktion im Stand",
+          "position": "Stand mit Festhalten",
+          "steps": ["Bein kontrolliert seitlich führen", "Becken stabil halten", "Langsam zurückführen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Kräftigung der Hüftabduktoren"
+        },
+        {
+          "name": "Aufstehen vom Stuhl",
+          "position": "Sitz auf erhöhtem Stuhl",
+          "steps": ["Füße aufstellen", "Kontrolliert aufrichten", "Langsam wieder hinsetzen"],
+          "dose": "2 Sätze mit 8–12 Wiederholungen",
+          "purpose": "ADL und funktionelle Kraft"
+        }
+      ],
+      "cautions": ["Bewegungsrestriktionen des Operateurs beachten", "Übungen entsprechend Kraft, Schmerz und Heilung steigern"],
+      "progressionCriteria": ["Sicheres Gehen", "Verbesserte Muskelkraft", "Selbstständigere Alltagsaktivitäten"]
+    }
+  ]
+},
+{
+  "conditionId": "meniskusrefixation",
+  "phases": [
+    {
+      "name": "Phase 1 – Schutz der Meniskusnaht",
+      "period": "Frühe postoperative Wochen laut OP-Protokoll",
+      "goals": ["Naht schützen", "Schwellung reduzieren", "Quadrizeps aktivieren"],
+      "exercises": [
+        {
+          "name": "Quadrizeps-Isometrie",
+          "position": "Rückenlage",
+          "steps": ["Oberschenkel anspannen", "5 Sekunden halten", "Entspannen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Muskelaktivierung ohne größere Kniebewegung"
+        },
+        {
+          "name": "Assistierte Kniebewegung",
+          "position": "Rückenlage",
+          "steps": ["Ferse langsam gleiten lassen", "Nur bis zur erlaubten Flexion bewegen", "Kontrolliert zurückführen"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Beweglichkeit im freigegebenen Bereich"
+        }
+      ],
+      "cautions": ["Belastungs- und Flexionsgrenzen sind naht- und OP-abhängig", "Keine tiefen belasteten Kniebeugen ohne Freigabe", "Keine frühen Dreh- und Pivotbewegungen"],
+      "progressionCriteria": ["Gute Schwellungskontrolle", "Quadrizepsaktivierung", "Freigabe zum Belastungsaufbau"]
+    },
+    {
+      "name": "Phase 2 – Belastungsaufbau",
+      "period": "Nach Freigabe und funktionellen Kriterien",
+      "goals": ["Kraft steigern", "Gangbild verbessern", "Beinachsenkontrolle"],
+      "exercises": [
+        {
+          "name": "Sit-to-Stand",
+          "position": "Sitz auf stabilem Stuhl",
+          "steps": ["Füße aufstellen", "Kontrolliert aufstehen", "Langsam hinsetzen"],
+          "dose": "2 Sätze mit 8–12 Wiederholungen",
+          "purpose": "Funktionelle Kräftigung"
+        },
+        {
+          "name": "Gewichtsverlagerung",
+          "position": "Stand mit Sicherung",
+          "steps": ["Gewicht langsam auf das operierte Bein verlagern", "Beinachse kontrollieren", "Zur Mitte zurückkehren"],
+          "dose": "2 Sätze mit 12 Wiederholungen",
+          "purpose": "Belastungsübernahme"
+        }
+      ],
+      "cautions": ["Nur nach Freigabe für Belastung und Bewegungsausmaß", "Sportliche Drehbelastungen erst nach spezifischer Rehabilitation"],
+      "progressionCriteria": ["Normales Gangbild", "Gute Beinachsenkontrolle", "Keine relevante Reizreaktion"]
+    }
+  ]
+},
+{
+  "conditionId": "schenkelhalsfraktur",
+  "phases": [
+    {
+      "name": "Phase 1 – Frühmobilisation",
+      "period": "Nach Operation oder ärztlicher Stabilitätsbeurteilung",
+      "goals": ["Komplikationen vermeiden", "Transfers ermöglichen", "Sichere Mobilität"],
+      "exercises": [
+        {
+          "name": "Fußpumpe",
+          "position": "Sitz oder Rückenlage",
+          "steps": ["Füße langsam anziehen und wegdrücken"],
+          "dose": "20 Wiederholungen",
+          "purpose": "Muskelpumpenaktivierung"
+        },
+        {
+          "name": "Transfer Bett zu Stuhl",
+          "position": "Bettkante",
+          "steps": ["Aufsetzen mit Unterstützung", "Sicheren Stand herstellen", "Mit Hilfsmittel zum Stuhl wechseln"],
+          "dose": "Mehrmals täglich nach Verträglichkeit",
+          "purpose": "Alltagsmobilität"
+        }
+      ],
+      "cautions": ["Osteosynthese oder Prothese unterscheiden", "Belastungsfreigabe beachten", "Sturzrisiko und Kreislauf prüfen"],
+      "progressionCriteria": ["Sichere Transfers", "Medizinisch freigegebene Belastbarkeit"]
+    },
+    {
+      "name": "Phase 2 – Gang und Selbstständigkeit",
+      "period": "Nach Stabilität und funktionellem Fortschritt",
+      "goals": ["Beinkraft verbessern", "Sicheres Gehen", "Sturzrisiko reduzieren"],
+      "exercises": [
+        {
+          "name": "Sit-to-Stand",
+          "position": "Stabiler Stuhl",
+          "steps": ["Füße aufstellen", "Mit geeigneter Unterstützung aufstehen", "Kontrolliert hinsetzen"],
+          "dose": "2 Sätze mit 8 Wiederholungen",
+          "purpose": "Transferfähigkeit und Kraft"
+        },
+        {
+          "name": "Gewichtsverlagerung",
+          "position": "Stand mit Sicherung",
+          "steps": ["Gewicht innerhalb der Belastungsfreigabe verlagern", "Auf stabilen Stand achten"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Stand- und Gangsicherheit"
+        }
+      ],
+      "cautions": ["Belastung hängt von Frakturversorgung und Heilung ab", "Keine ungesicherten Gleichgewichtsübungen"],
+      "progressionCriteria": ["Verbesserte Gehfähigkeit", "Sichere Alltagsbewegungen"]
+    }
+  ]
+},
+{
+  "conditionId": "hueftdysplasie",
+  "phases": [
+    {
+      "name": "Phase 1 – Konservative Therapie",
+      "period": "Symptomorientiert bei Erwachsenen",
+      "goals": ["Hüftstabilität fördern", "Belastbarkeit verbessern", "Schmerzmanagement"],
+      "exercises": [
+        {
+          "name": "Isometrische Hüftabduktion",
+          "position": "Sitz",
+          "steps": ["Leicht gegen einen Gurt oder die Hände nach außen drücken", "Becken stabil halten", "Spannung lösen"],
+          "dose": "2 Sätze mit 10 Wiederholungen, 5 Sekunden halten",
+          "purpose": "Aktivierung der Hüftabduktoren"
+        },
+        {
+          "name": "Kontrolliertes Aufstehen",
+          "position": "Sitz",
+          "steps": ["Füße aufstellen", "Kontrolliert aufstehen", "Langsam hinsetzen"],
+          "dose": "2 Sätze mit 8–12 Wiederholungen",
+          "purpose": "Alltagskraft verbessern"
+        }
+      ],
+      "cautions": ["Keine schmerzhaften Endstellungen erzwingen", "Strukturelle Instabilität und individuelle Beschwerden berücksichtigen"],
+      "progressionCriteria": ["Bessere Belastungsverträglichkeit", "Verbesserte Bewegungskontrolle"]
+    }
+  ]
+},
+{
+  "conditionId": "beckenringfraktur",
+  "phases": [
+    {
+      "name": "Phase 1 – Schutz und Mobilisation",
+      "period": "Nach Stabilisierung und ärztlicher Freigabe",
+      "goals": ["Frakturstabilisierung schützen", "Sichere Transfers", "Immobilitätsfolgen reduzieren"],
+      "exercises": [
+        {
+          "name": "Fußbewegungen",
+          "position": "Rückenlage",
+          "steps": ["Füße langsam anziehen", "Füße wegdrücken"],
+          "dose": "20 Wiederholungen",
+          "purpose": "Aktive Bewegung bei reduzierter Mobilität"
+        },
+        {
+          "name": "Angeleiteter Transfer",
+          "position": "Bett",
+          "steps": ["Erlaubte Bewegungen vorbereiten", "Mit Hilfe aufsetzen", "Transfer nach ärztlichen Vorgaben durchführen"],
+          "dose": "Nach funktioneller und medizinischer Belastbarkeit",
+          "purpose": "Selbstständigkeit verbessern"
+        }
+      ],
+      "cautions": ["Instabile Fraktur und Fixateur externe erfordern individuelle Vorgaben", "Keine pauschale Belastungssteigerung", "Pin-Stellen auf Auffälligkeiten kontrollieren"],
+      "progressionCriteria": ["Stabile Fraktursituation", "Ärztliche Freigabe", "Sichere Transfers"]
+    },
+    {
+      "name": "Phase 2 – Funktioneller Belastungsaufbau",
+      "period": "Nach nachgewiesener Stabilität und Freigabe",
+      "goals": ["Gangfähigkeit verbessern", "Kraft aufbauen", "Alltagssicherheit"],
+      "exercises": [
+        {
+          "name": "Gewichtsverlagerung",
+          "position": "Gesicherter Stand",
+          "steps": ["Gewicht entsprechend Freigabe verlagern", "Becken stabil halten", "Zur Mitte zurückkehren"],
+          "dose": "2 Sätze mit 10 Wiederholungen",
+          "purpose": "Vorbereitung auf funktionelle Belastung"
+        },
+        {
+          "name": "Gangschule",
+          "position": "Stand mit geeignetem Hilfsmittel",
+          "steps": ["Belastungsvorgaben prüfen", "Schrittfolge üben", "Kurze Strecken unter Sicherung gehen"],
+          "dose": "Mehrere kurze Strecken nach Freigabe",
+          "purpose": "Sicheres Gehen"
+        }
+      ],
+      "cautions": ["Nur nach Stabilitäts- und Belastungsfreigabe", "Schmerzen, Infektzeichen und neurologische Auffälligkeiten beachten"],
+      "progressionCriteria": ["Verbesserte Gangqualität", "Gute Belastungsverträglichkeit", "Frakturheilung ärztlich bestätigt"]
+    }
+  ]
+}
+
 ]
 
