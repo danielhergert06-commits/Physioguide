@@ -244,6 +244,145 @@
 </nav>
 
 <!-- ENDE V7 NAVIGATION -->
+<!-- PHYSIOLEARN: NAVIGATION UND LAYOUT REPARIEREN -->
+
+<script>
+
+(function () {
+
+  const content = document.querySelector('.main .content');
+
+  const sideNav = document.querySelector('.sidebar .nav');
+
+  // Neue Seiten in den richtigen Hauptbereich verschieben
+
+  ['conditions', 'exercises', 'venousquiz'].forEach(name => {
+
+    const page = document.getElementById('view-' + name);
+
+    if (page && content) content.appendChild(page);
+
+  });
+
+  // Alte Platzhalter durch echte Menüpunkte ersetzen
+
+  if (sideNav) {
+
+    const buttons = sideNav.querySelectorAll('button');
+
+    buttons.forEach(btn => {
+
+      if (btn.textContent.includes('Krankheitsbilder')) {
+
+        btn.dataset.view = 'conditions';
+
+      }
+
+      if (btn.textContent.includes('Übungen')) {
+
+        btn.dataset.view = 'exercises';
+
+      }
+
+    });
+
+    if (!sideNav.querySelector('[data-view="venousquiz"]')) {
+
+      const quiz = document.createElement('button');
+
+      quiz.type = 'button';
+
+      quiz.dataset.view = 'venousquiz';
+
+      quiz.textContent = 'Venen-Quiz';
+
+      sideNav.appendChild(quiz);
+
+    }
+
+  }
+
+  // Alte Navigation unterhalb der App entfernen
+
+  const oldNav = document.querySelector('.clinic-navigation');
+
+  if (oldNav) oldNav.remove();
+
+  // Einheitliche SVG-Icons statt Sonderzeichen
+
+  const paths = {
+
+    dashboard: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
+
+    anatomy: '<path d="M5 8a3 3 0 0 1 4-4l6 6a3 3 0 1 1 5 5 3 3 0 0 1-5 5l-6-6a3 3 0 0 1-4-6Z"/>',
+
+    flashcards: '<rect x="5" y="3" width="16" height="18" rx="2"/><path d="M9 8h8M9 12h8M9 16h5"/>',
+
+    quiz: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 2-2.5 2-2.5 4M12 17h.01"/>',
+
+    favorites: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9Z"/>',
+
+    progress: '<path d="M4 19V5M4 19h16M8 15l4-4 3 2 5-6"/>',
+
+    conditions: '<rect x="4" y="4" width="16" height="17" rx="2"/><path d="M9 4V2h6v2M12 8v8M8 12h8"/>',
+
+    exercises: '<path d="M3 10v4M6 7v10M9 10h6M15 7v10M18 10v4M21 10v4"/>',
+
+    venousquiz: '<path d="M8 3c-3 3-3 6 0 9s3 6 0 9M16 3c3 3 3 6 0 9s-3 6 0 9M8 12h8"/>',
+
+    coming: '<path d="M12 5v14M5 12h14"/>'
+
+  };
+
+  const names = {
+
+    dashboard: 'Dashboard',
+
+    anatomy: 'Anatomie',
+
+    flashcards: 'Karteikarten',
+
+    quiz: 'Quiz',
+
+    favorites: 'Favoriten',
+
+    progress: 'Fortschritt',
+
+    conditions: 'Krankheitsbilder',
+
+    exercises: 'Übungen',
+
+    venousquiz: 'Venen-Quiz',
+
+    coming: 'Therapieplaner'
+
+  };
+
+  document.querySelectorAll('.sidebar .nav button').forEach(btn => {
+
+    const key = btn.dataset.view;
+
+    if (!paths[key]) return;
+
+    btn.innerHTML =
+
+      '<svg width="19" height="19" viewBox="0 0 24 24" ' +
+
+      'fill="none" stroke="currentColor" stroke-width="1.8" ' +
+
+      'stroke-linecap="round" stroke-linejoin="round" ' +
+
+      'aria-hidden="true">' + paths[key] + '</svg>' +
+
+      '<span>' + names[key] + '</span>';
+
+  });
+
+})();
+
+</script>
+
+<!-- ENDE LAYOUT-REPARATUR -->
   <script src="./app.js"></script>
 </body>
 </html>
