@@ -48,3 +48,243 @@ h1,h2,h3,p{margin-top:0} h1{font-size:clamp(30px,4vw,48px);line-height:1.05;marg
 /* Illustrated anatomy view */
 .anatomy-panel{display:block;min-height:unset}.region-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 0 15px}.region-photos img{width:100%;aspect-ratio:4/5;object-fit:contain;background:#fff;border:1px solid var(--border);border-radius:17px}.region-photo-label{color:var(--muted);font-size:11px;text-align:center;margin-top:5px}.anatomy-panel .body-svg{max-height:275px}.anatomy-panel>div:last-child{margin:auto}
 @media(max-width:600px){.region-photos{gap:8px}}
+
+/* =========================================
+   PHYSIOLEARN V7 – NEUES DESIGN
+   ========================================= */
+
+/* HELLER MODUS */
+:root,
+:root[data-theme="light"] {
+  --pl-bg: #C6E5FF;
+  --pl-text: #173B60;
+  --pl-surface: #FFFFFF;
+  --pl-border: #A8CEE9;
+  --pl-accent: #1979C4;
+}
+
+:root[data-theme="dark"] {
+  --pl-bg: #101B30;
+  --pl-text: #E7F2FF;
+  --pl-surface: #1C2B43;
+  --pl-border: #354C6A;
+  --pl-accent: #7CCBFA;
+}
+
+/* HINTERGRUND UND SCHRIFT */
+html,
+body {
+  min-height: 100%;
+  background: var(--pl-bg) !important;
+  color: var(--pl-text);
+}
+
+body {
+  font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* KARTEN UND CONTAINER */
+.card,
+.clinic-detail {
+  background: var(--pl-surface);
+  color: var(--pl-text);
+  border: 1px solid var(--pl-border);
+  border-radius: 18px;
+  box-shadow: 0 5px 18px rgba(15, 48, 85, 0.10);
+}
+
+/* NEUE NAVIGATION */
+.clinic-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 18px 0;
+  margin: 18px 0;
+}
+
+.clinic-navigation button {
+  flex: 1 1 160px;
+  min-height: 54px;
+  padding: 13px 16px;
+  border: 1px solid #345B7A;
+  border-radius: 15px;
+  background: #233D60;
+  color: #E7F2FF;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform .2s, background .2s;
+}
+
+.clinic-navigation button:hover,
+.clinic-navigation button.active {
+  background: #176FA9;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* KRANKHEITSBILDER UND ÜBUNGEN */
+.clinic-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.clinic-tile {
+  width: 100%;
+  padding: 21px;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: #EAF5FF;
+  background: #233D60;
+  box-shadow: 0 6px 16px rgba(20,45,80,.13);
+  cursor: pointer;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.clinic-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 23px rgba(20,45,80,.21);
+}
+
+.clinic-tile h3 {
+  color: inherit;
+  margin: 12px 0 8px;
+}
+
+.clinic-tile p,
+.clinic-tile small {
+  color: #C4DDF5;
+}
+
+.clinic-tile .tag {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 6px 11px;
+  background: rgba(255,255,255,.13);
+  color: #C7E9FF;
+  font-weight: 700;
+}
+
+/* FARBEN PRO LERNBEREICH */
+#view-conditions .clinic-tile {
+  background: #204A4C;
+  border-color: #36756E;
+}
+
+#view-conditions .clinic-tile p,
+#view-conditions .clinic-tile small {
+  color: #C1E9DD;
+}
+
+#view-exercises .clinic-tile {
+  background: #42365C;
+  border-color: #665486;
+}
+
+#view-exercises .clinic-tile p,
+#view-exercises .clinic-tile small {
+  color: #E2D2F5;
+}
+
+/* DETAILSEITEN */
+.clinic-detail {
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.clinic-detail h2,
+.clinic-detail h3 {
+  color: var(--pl-text);
+}
+
+.clinic-detail ul {
+  padding-left: 22px;
+  line-height: 1.7;
+}
+
+.clinic-warning {
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 14px;
+  background: #FFF0D9;
+  color: #744417;
+  border-left: 4px solid #DB8B2D;
+}
+
+:root[data-theme="dark"] .clinic-warning {
+  background: #483525;
+  color: #FFE4BC;
+}
+
+/* SUCHFELDER */
+#conditionsSearch,
+#exerciseSearch,
+#conditionsField,
+#exerciseCategory {
+  width: 100%;
+  min-height: 48px;
+  margin: 7px 0;
+  padding: 12px 14px;
+  border: 1px solid var(--pl-border);
+  border-radius: 13px;
+  background: var(--pl-surface);
+  color: var(--pl-text);
+  font-size: 16px;
+}
+
+/* QUIZ */
+#venousQuizBox .card {
+  padding: 24px;
+  border-radius: 20px;
+}
+
+#venousQuizBox .btn {
+  margin: 7px 5px 7px 0;
+  min-height: 46px;
+}
+
+#venousQuizBox h3 {
+  line-height: 1.5;
+}
+
+/* DARK MODE */
+:root[data-theme="dark"] .card,
+:root[data-theme="dark"] .clinic-detail {
+  box-shadow: 0 5px 18px rgba(0,0,0,.22);
+}
+
+:root[data-theme="dark"] .clinic-navigation button {
+  background: #294765;
+  border-color: #426789;
+}
+
+:root[data-theme="dark"] .clinic-navigation button.active {
+  background: #176FA9;
+}
+
+/* iPAD UND SMARTPHONE */
+@media (max-width: 700px) {
+  .clinic-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .clinic-navigation {
+    gap: 9px;
+  }
+
+  .clinic-navigation button {
+    flex: 1 1 130px;
+    font-size: 14px;
+  }
+
+  .clinic-detail {
+    padding: 17px;
+  }
+}
+
