@@ -567,4 +567,151 @@
     ],
     "note": "Ausbildungsinhalt zur manuellen Technik, keine allgemeine Therapieempfehlung."
   }
+  
+,
+{
+  "id": "hueft-tep",
+  "name": "Hüft-Totalendoprothese (Hüft-TEP)",
+  "area": "Hüfte",
+  "field": "Orthopädie / Chirurgie",
+  "definition": "Operativer Ersatz des Hüftgelenks durch eine Endoprothese, häufig bei fortgeschrittener Coxarthrose.",
+  "symptoms": [
+    "Postoperative Schmerzen und Schwellung",
+    "Eingeschränkte Beweglichkeit und Muskelkraft",
+    "Unsicherheiten beim Gehen und bei Transfers"
+  ],
+  "assessment": [
+    "Operationszugang und Nachbehandlungsschema prüfen",
+    "Schmerzen, Wunde und Kreislauf beobachten",
+    "Beweglichkeit, Gangbild und Muskelkraft erfassen",
+    "Transferfähigkeit und Alltagsaktivitäten beurteilen"
+  ],
+  "goals": [
+    "Sichere Frühmobilisation",
+    "Funktionelles Gangbild verbessern",
+    "Hüftmuskulatur kräftigen",
+    "Alltagsselbstständigkeit fördern"
+  ],
+  "warnings": [
+    "Zugangsspezifische Bewegungsregeln beachten",
+    "Belastungsvorgaben des Operateurs einhalten",
+    "Bei Luxationsverdacht, Fieber oder auffälliger Wunde sofort ärztlich abklären"
+  ],
+  "exerciseIds": [
+    "gait-with-aids",
+    "sit-to-stand",
+    "hip-abduction-standing"
+  ],
+  "sources": [],
+  "note": "Allgemeiner Lerninhalt. Reha-Phasen abhängig von OP-Technik und individueller Freigabe."
+},
+{
+  "id": "meniskusrefixation",
+  "name": "Meniskusrefixation (Meniskusnaht)",
+  "area": "Knie",
+  "field": "Orthopädie / Chirurgie",
+  "definition": "Operative Wiederbefestigung eines verletzten Meniskus zur Erhaltung des Meniskusgewebes.",
+  "symptoms": [
+    "Postoperative Schmerzen und Schwellung",
+    "Eingeschränkte Kniebeweglichkeit",
+    "Zeitweise eingeschränkte Belastbarkeit"
+  ],
+  "assessment": [
+    "Rissform und Operationsbericht prüfen",
+    "Erlaubten Bewegungsumfang dokumentieren",
+    "Belastungsvorgaben und Orthese kontrollieren",
+    "Quadrizepsaktivierung, Schwellung und Gangbild erfassen"
+  ],
+  "goals": [
+    "Meniskusnaht schützen",
+    "Schwellung reduzieren",
+    "Muskelaktivierung fördern",
+    "Schrittweiser Aufbau der Kniebelastbarkeit"
+  ],
+  "warnings": [
+    "Flexions- und Belastungsgrenzen sind abhängig von Rissform und OP-Verfahren",
+    "Keine tiefen belasteten Kniebeugen ohne Freigabe",
+    "Rotations- und Pivotbelastungen erst nach ausreichender Heilung und Freigabe"
+  ],
+  "exerciseIds": [
+    "knee-isometric",
+    "weightshift-supported"
+  ],
+  "sources": [],
+  "note": "Nicht mit Meniskusteilresektion gleichsetzen. Individuelles Nachbehandlungsschema beachten."
+},
+{
+  "id": "schenkelhalsfraktur",
+  "name": "Schenkelhalsfraktur",
+  "area": "Hüfte",
+  "field": "Orthopädie / Chirurgie",
+  "definition": "Fraktur des Oberschenkelhalses zwischen Femurkopf und Trochanterregion. Die Versorgung kann osteosynthetisch oder endoprothetisch erfolgen.",
+  "symptoms": [
+    "Hüft- oder Leistenschmerzen",
+    "Eingeschränkte Belastbarkeit",
+    "Beeinträchtigte Geh- und Transferfähigkeit"
+  ],
+  "assessment": [
+    "Frakturklassifikation und Versorgung erfassen",
+    "Belastungsfreigabe prüfen",
+    "Schmerz, Beweglichkeit und Muskelkraft untersuchen",
+    "Sturzrisiko und Alltagsfunktion beurteilen"
+  ],
+  "goals": [
+    "Sichere Mobilisation",
+    "Komplikationen durch Immobilität vermeiden",
+    "Gehfähigkeit wiederherstellen",
+    "Sturzrisiko reduzieren"
+  ],
+  "warnings": [
+    "Belastung abhängig von Frakturstabilität und Versorgung",
+    "Bei endoprothetischer Versorgung mögliche Luxationsregeln beachten",
+    "Keine ungesicherten Gleichgewichtsübungen"
+  ],
+  "exerciseIds": [
+    "gait-with-aids",
+    "sit-to-stand",
+    "weightshift-supported"
+  ],
+  "sources": [],
+  "note": "Die Nachbehandlung unterscheidet sich zwischen Osteosynthese und Hüftprothese."
+},
+{
+  "id": "hueftdysplasie",
+  "name": "Hüftdysplasie bei Erwachsenen",
+  "area": "Hüfte",
+  "field": "Orthopädie",
+  "definition": "Angeborene oder entwicklungsbedingte Fehlform der Hüftpfanne mit unzureichender Überdachung des Femurkopfes und veränderter Gelenkbelastung.",
+  "symptoms": [
+    "Leisten- oder Hüftschmerzen",
+    "Belastungsabhängige Beschwerden",
+    "Mögliche Instabilität oder eingeschränkte Funktion",
+    "Erhöhtes Risiko einer sekundären Coxarthrose"
+  ],
+  "assessment": [
+    "Schmerz und Belastungsverhalten erfassen",
+    "Beweglichkeit untersuchen",
+    "Hüftabduktoren und funktionelle Kraft testen",
+    "Gangbild und Beckenstabilität beurteilen"
+  ],
+  "goals": [
+    "Hüftstabilität verbessern",
+    "Muskuläre Belastbarkeit aufbauen",
+    "Bewegungskontrolle fördern",
+    "Alltagsbeschwerden reduzieren"
+  ],
+  "warnings": [
+    "Schmerzhafte Endpositionen und provokative Belastungen vermeiden",
+    "Konservative und postoperative Therapie unterscheiden",
+    "Nach knöcherner Umstellung gelten besondere Belastungsvorgaben"
+  ],
+  "exerciseIds": [
+    "hip-abduction-standing",
+    "sit-to-stand",
+    "hip-mobility-seated"
+  ],
+  "sources": [],
+  "note": "Konservative Therapie bei Erwachsenen. Nach Beckenosteotomie ist ein eigenes postoperatives Reha-Protokoll erforderlich."
+}
+
 ]
