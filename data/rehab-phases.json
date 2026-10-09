@@ -1,1 +1,513 @@
 
+[
+  {
+    "conditionId": "knie-tep",
+    "phases": [
+      {
+        "name": "Phase 1 – Akutphase",
+        "period": "Tag 1–7, ungefähr",
+        "goals": [
+          "Schmerzen und Schwellung reduzieren",
+          "Knieextension und Beweglichkeit fördern",
+          "Quadrizeps aktivieren",
+          "Sichere Transfers und Gangschule"
+        ],
+        "exercises": [
+          {
+            "name": "Fußpumpe",
+            "position": "Rückenlage oder Sitz",
+            "steps": [
+              "Fußspitzen abwechselnd anziehen und wegdrücken",
+              "Ruhig und rhythmisch bewegen"
+            ],
+            "dose": "20 Wiederholungen, regelmäßig über den Tag",
+            "purpose": "Aktivierung der Wadenmuskelpumpe"
+          },
+          {
+            "name": "Quadrizeps-Anspannung",
+            "position": "Rückenlage mit gestrecktem Bein",
+            "steps": [
+              "Oberschenkelvorderseite bewusst anspannen",
+              "Kniekehle Richtung Unterlage bewegen",
+              "Spannung lösen"
+            ],
+            "dose": "2–3 Sätze mit 10 Wiederholungen, jeweils 5 Sekunden halten",
+            "purpose": "Frühe Aktivierung des Quadrizeps"
+          },
+          {
+            "name": "Assistierte Kniebeugung",
+            "position": "Rückenlage",
+            "steps": [
+              "Ferse langsam Richtung Gesäß gleiten lassen",
+              "Das Bein bei Bedarf mit einem Tuch unterstützen",
+              "Kontrolliert in die Streckung zurückkehren"
+            ],
+            "dose": "2 Sätze mit 10 Wiederholungen",
+            "purpose": "Beweglichkeit erhalten und verbessern"
+          },
+          {
+            "name": "Gangschule mit Gehstützen",
+            "position": "Stand und Gehen",
+            "steps": [
+              "Aufstehen mit gesicherter Unterstützung üben",
+              "Mit der verordneten Belastung gehen",
+              "Auf sichere Schrittfolge und Gangqualität achten"
+            ],
+            "dose": "Mehrere kurze Strecken nach Belastbarkeit",
+            "purpose": "Sichere Frühmobilisation"
+          }
+        ],
+        "cautions": [
+          "Belastungsfreigabe und Operationsvorgaben beachten",
+          "Wunde, Kreislauf, Schmerz und Schwellung kontrollieren",
+          "Bei Fieber, auffälliger Wunde oder Thromboseverdacht ärztlich abklären"
+        ],
+        "progressionCriteria": [
+          "Sicherer Transfer",
+          "Aktive Muskelansteuerung",
+          "Belastung ohne auffällige Beschwerdezunahme"
+        ]
+      },
+      {
+        "name": "Phase 2 – Frühe Rehabilitation",
+        "period": "Woche 2–6, ungefähr",
+        "goals": [
+          "Beweglichkeit erweitern",
+          "Quadrizeps und Hüftmuskulatur kräftigen",
+          "Gangbild verbessern"
+        ],
+        "exercises": [
+          {
+            "name": "Sit-to-Stand",
+            "position": "Sitz auf stabilem Stuhl",
+            "steps": [
+              "Füße sicher aufstellen",
+              "Kontrolliert aufstehen",
+              "Langsam wieder hinsetzen"
+            ],
+            "dose": "2–3 Sätze mit 8–12 Wiederholungen",
+            "purpose": "Kräftigung und ADL-Training"
+          },
+          {
+            "name": "Gewichtsverlagerung",
+            "position": "Stand mit Sicherungsmöglichkeit",
+            "steps": [
+              "Gewicht langsam auf das operierte Bein verlagern",
+              "Becken möglichst stabil halten",
+              "Zur Ausgangsstellung zurückkehren"
+            ],
+            "dose": "2 Sätze mit 10–15 Wiederholungen",
+            "purpose": "Belastungsübernahme und Standstabilität"
+          },
+          {
+            "name": "Fahrradergometer",
+            "position": "Sitz auf dem Ergometer",
+            "steps": [
+              "Sattelhöhe passend einstellen",
+              "Mit geringem Widerstand beginnen",
+              "Gleichmäßig und kontrolliert treten"
+            ],
+            "dose": "5–15 Minuten je nach Beweglichkeit und Verträglichkeit",
+            "purpose": "Beweglichkeit und Ausdauer"
+          }
+        ],
+        "cautions": [
+          "Ergometer erst bei ausreichender schmerzverträglicher Kniebeweglichkeit",
+          "Bei deutlicher Schwellungszunahme Belastung reduzieren"
+        ],
+        "progressionCriteria": [
+          "Verbesserte Gangqualität",
+          "Zunehmende Kraft",
+          "Alltagsaktivitäten mit guter Belastungsverträglichkeit"
+        ]
+      },
+      {
+        "name": "Phase 3 – Aufbau und Spätrehabilitation",
+        "period": "Ab etwa Woche 6, individuell",
+        "goals": [
+          "Kraft und Gleichgewicht steigern",
+          "Treppenfähigkeit verbessern",
+          "Alltagsbelastbarkeit aufbauen"
+        ],
+        "exercises": [
+          {
+            "name": "Mini-Kniebeugen",
+            "position": "Stand",
+            "steps": [
+              "Füße hüftbreit aufstellen",
+              "Hüfte und Knie kontrolliert beugen",
+              "Wieder aufrichten"
+            ],
+            "dose": "2–3 Sätze mit 10–15 Wiederholungen",
+            "purpose": "Funktionelle Beinkräftigung"
+          },
+          {
+            "name": "Step-up",
+            "position": "Stand vor niedriger Stufe",
+            "steps": [
+              "Mit gesicherter Unterstützung aufsteigen",
+              "Gewicht kontrolliert übernehmen",
+              "Langsam absteigen"
+            ],
+            "dose": "2 Sätze mit 8–12 Wiederholungen",
+            "purpose": "Treppenfähigkeit und Kraft"
+          },
+          {
+            "name": "Unterstützter Einbeinstand",
+            "position": "Stand an einer stabilen Haltemöglichkeit",
+            "steps": [
+              "Gewicht auf das Trainingsbein übernehmen",
+              "Anderen Fuß vorsichtig anheben",
+              "Becken und Knie stabil halten"
+            ],
+            "dose": "3-mal 20–30 Sekunden",
+            "purpose": "Gleichgewicht und Gelenkkontrolle"
+          }
+        ],
+        "cautions": [
+          "Schwierigkeit nur bei ausreichender Kontrolle steigern",
+          "Keine Übungen mit erhöhtem Sturzrisiko ohne Sicherung"
+        ],
+        "progressionCriteria": [
+          "Sichere Treppenbewältigung",
+          "Verbesserte Kraft und Balance",
+          "Stabile Belastungsverträglichkeit"
+        ]
+      }
+    ]
+  },
+  {
+    "conditionId": "gonarthrose",
+    "phases": [
+      {
+        "name": "Phase 1 – Beschwerden regulieren",
+        "period": "Nach Symptomen, nicht nach festen Wochen",
+        "goals": [
+          "Schmerzverträgliche Bewegung ermöglichen",
+          "Beweglichkeit fördern"
+        ],
+        "exercises": [
+          {
+            "name": "Aktive Kniebeugung und Streckung",
+            "position": "Sitz",
+            "steps": [
+              "Unterschenkel kontrolliert vor- und zurückbewegen",
+              "Innerhalb der verträglichen Beweglichkeit bleiben"
+            ],
+            "dose": "2 Sätze mit 10–15 Wiederholungen",
+            "purpose": "Beweglichkeit und Bewegungsvertrauen"
+          },
+          {
+            "name": "Aufstehen vom Stuhl",
+            "position": "Sitz",
+            "steps": [
+              "Füße aufstellen",
+              "Kontrolliert aufstehen und hinsetzen",
+              "Bei Bedarf Armlehnen verwenden"
+            ],
+            "dose": "2 Sätze mit 8–10 Wiederholungen",
+            "purpose": "Alltagsbezogene Kräftigung"
+          }
+        ],
+        "cautions": [
+          "Belastung nach Schmerzreaktion und Schwellung anpassen"
+        ],
+        "progressionCriteria": [
+          "Übungen werden gut toleriert"
+        ]
+      },
+      {
+        "name": "Phase 2 – Kraft und Funktion",
+        "period": "Bei ausreichender Belastungsverträglichkeit",
+        "goals": [
+          "Beinkraft steigern",
+          "Gehfähigkeit verbessern"
+        ],
+        "exercises": [
+          {
+            "name": "Kniebeugen zum Stuhl",
+            "position": "Stand vor einem Stuhl",
+            "steps": [
+              "Gesäß Richtung Stuhl absenken",
+              "Knie und Hüfte kontrolliert beugen",
+              "Wieder aufrichten"
+            ],
+            "dose": "2–3 Sätze mit 8–12 Wiederholungen",
+            "purpose": "Kräftigung der unteren Extremität"
+          },
+          {
+            "name": "Step-up",
+            "position": "Stand vor niedriger Stufe",
+            "steps": [
+              "Auf niedrige Stufe steigen",
+              "Kontrolliert absteigen",
+              "Bei Bedarf Geländer verwenden"
+            ],
+            "dose": "2 Sätze mit 8–12 Wiederholungen",
+            "purpose": "Treppentraining und Muskelkraft"
+          }
+        ],
+        "cautions": [
+          "Trainingsbelastung schrittweise erhöhen"
+        ],
+        "progressionCriteria": [
+          "Verbesserte Kraft und Alltagsfunktion"
+        ]
+      }
+    ]
+  },
+  {
+    "conditionId": "coxarthrose",
+    "phases": [
+      {
+        "name": "Phase 1 – Beweglichkeit und Beschwerdemanagement",
+        "period": "Symptomorientiert",
+        "goals": [
+          "Schmerzverträgliche Hüftbewegung",
+          "Bewegungsvertrauen verbessern"
+        ],
+        "exercises": [
+          {
+            "name": "Aktive Hüftbeugung im Stand",
+            "position": "Stand mit Festhaltemöglichkeit",
+            "steps": [
+              "Ein Knie kontrolliert anheben",
+              "Becken stabil halten",
+              "Bein wieder abstellen"
+            ],
+            "dose": "2 Sätze mit 10 Wiederholungen pro Seite",
+            "purpose": "Aktive Beweglichkeit und Muskelansteuerung"
+          },
+          {
+            "name": "Gewichtsverlagerung im Stand",
+            "position": "Stand",
+            "steps": [
+              "Gewicht kontrolliert auf eine Seite verlagern",
+              "Becken waagerecht halten",
+              "Zurück zur Mitte wechseln"
+            ],
+            "dose": "2 Sätze mit 10–15 Wiederholungen",
+            "purpose": "Belastungsübernahme verbessern"
+          }
+        ],
+        "cautions": [
+          "Schmerzreaktion und Gleichgewicht beachten"
+        ],
+        "progressionCriteria": [
+          "Verbesserte Bewegungs- und Belastungsverträglichkeit"
+        ]
+      },
+      {
+        "name": "Phase 2 – Kräftigung und Alltag",
+        "period": "Bei ausreichender Belastbarkeit",
+        "goals": [
+          "Hüftmuskulatur kräftigen",
+          "Gangfunktion verbessern"
+        ],
+        "exercises": [
+          {
+            "name": "Hüftabduktion im Stand",
+            "position": "Stand mit Festhalten",
+            "steps": [
+              "Bein seitlich führen",
+              "Rumpf möglichst aufrecht halten",
+              "Langsam zurückführen"
+            ],
+            "dose": "2–3 Sätze mit 10–15 Wiederholungen",
+            "purpose": "Kräftigung der Hüftabduktoren"
+          },
+          {
+            "name": "Sit-to-Stand",
+            "position": "Sitz",
+            "steps": [
+              "Kontrolliert aufstehen",
+              "Hüfte und Knie strecken",
+              "Langsam hinsetzen"
+            ],
+            "dose": "2–3 Sätze mit 8–12 Wiederholungen",
+            "purpose": "Funktionelle Hüft- und Beinkräftigung"
+          }
+        ],
+        "cautions": [
+          "Belastung an Beschwerden und Funktionsniveau anpassen"
+        ],
+        "progressionCriteria": [
+          "Alltagstätigkeiten werden sicherer bewältigt"
+        ]
+      }
+    ]
+  },
+  {
+    "conditionId": "vkb-rekonstruktion",
+    "phases": [
+      {
+        "name": "Phase 1 – Frühe postoperative Rehabilitation",
+        "period": "Nach individuellem OP-Protokoll",
+        "goals": [
+          "Schwellung reduzieren",
+          "Knieextension wiederherstellen",
+          "Quadrizeps aktivieren"
+        ],
+        "exercises": [
+          {
+            "name": "Quadrizeps-Anspannung",
+            "position": "Rückenlage",
+            "steps": [
+              "Oberschenkelvorderseite anspannen",
+              "Knie kontrolliert Richtung Streckung führen",
+              "Spannung lösen"
+            ],
+            "dose": "2–3 Sätze mit 10 Wiederholungen",
+            "purpose": "Muskelaktivierung"
+          },
+          {
+            "name": "Assistierte Fersengleitbewegung",
+            "position": "Rückenlage",
+            "steps": [
+              "Ferse langsam heranziehen",
+              "Erlaubtes Bewegungsausmaß beachten",
+              "Bein zurückführen"
+            ],
+            "dose": "2 Sätze mit 10 Wiederholungen",
+            "purpose": "Beweglichkeit verbessern"
+          }
+        ],
+        "cautions": [
+          "Transplantattyp und Begleitoperationen beachten",
+          "Bei zusätzlicher Meniskusnaht gelten gegebenenfalls andere Belastungs- und Bewegungsgrenzen"
+        ],
+        "progressionCriteria": [
+          "Gute Schwellungskontrolle",
+          "Verbesserte Quadrizepsaktivität"
+        ]
+      },
+      {
+        "name": "Phase 2 – Kraft und neuromuskuläre Kontrolle",
+        "period": "Kriteriengeleiteter Aufbau",
+        "goals": [
+          "Kraft wiederherstellen",
+          "Beinachsenkontrolle verbessern",
+          "Gangbild normalisieren"
+        ],
+        "exercises": [
+          {
+            "name": "Kontrollierter Step-up",
+            "position": "Stand",
+            "steps": [
+              "Auf eine niedrige Stufe steigen",
+              "Knieachse kontrollieren",
+              "Langsam absteigen"
+            ],
+            "dose": "2–3 Sätze mit 8–12 Wiederholungen",
+            "purpose": "Kraft und Bewegungskontrolle"
+          },
+          {
+            "name": "Einbeinstand mit Sicherung",
+            "position": "Stand",
+            "steps": [
+              "Ein Bein anheben",
+              "Becken und Knie stabil halten",
+              "Bei Bedarf festhalten"
+            ],
+            "dose": "3-mal 20–30 Sekunden",
+            "purpose": "Neuromuskuläre Kontrolle"
+          }
+        ],
+        "cautions": [
+          "Keine unfreigegebenen Sprung- oder Drehbelastungen"
+        ],
+        "progressionCriteria": [
+          "Ausreichende Kraft",
+          "Sichere Bewegungskontrolle",
+          "Keine relevante Reizreaktion"
+        ]
+      }
+    ]
+  },
+  {
+    "conditionId": "patellaluxation",
+    "phases": [
+      {
+        "name": "Phase 1 – Akut und Schutz",
+        "period": "Nach Reposition und ärztlicher Vorgabe",
+        "goals": [
+          "Schmerzen und Schwellung reduzieren",
+          "Quadrizepsaktivierung fördern",
+          "Sichere Mobilität ermöglichen"
+        ],
+        "exercises": [
+          {
+            "name": "Quadrizeps-Isometrie",
+            "position": "Rückenlage",
+            "steps": [
+              "Oberschenkelvorderseite sanft anspannen",
+              "Knie innerhalb der Freigabe ruhig halten",
+              "Spannung lösen"
+            ],
+            "dose": "2 Sätze mit 10 Wiederholungen",
+            "purpose": "Quadrizepsaktivierung"
+          },
+          {
+            "name": "Fußpumpe",
+            "position": "Rückenlage oder Sitz",
+            "steps": [
+              "Fußspitze rhythmisch anziehen und wegdrücken"
+            ],
+            "dose": "20 Wiederholungen",
+            "purpose": "Muskelpumpenaktivierung"
+          }
+        ],
+        "cautions": [
+          "Orthese und Bewegungsbegrenzung beachten",
+          "Bei Verdacht auf osteochondrale Begleitverletzung ärztliche Abklärung",
+          "Keine unkontrollierten Rotations- oder seitlichen Belastungen"
+        ],
+        "progressionCriteria": [
+          "Rückläufige Schwellung",
+          "Verbesserte Muskelansteuerung"
+        ]
+      },
+      {
+        "name": "Phase 2 – Stabilität und Bewegungskontrolle",
+        "period": "Nach medizinischer Freigabe",
+        "goals": [
+          "Quadrizeps und Hüftmuskulatur kräftigen",
+          "Beinachsenkontrolle verbessern"
+        ],
+        "exercises": [
+          {
+            "name": "Mini-Kniebeugen",
+            "position": "Stand",
+            "steps": [
+              "Knie kontrolliert im freigegebenen Bereich beugen",
+              "Beinachse stabil halten",
+              "Wieder aufrichten"
+            ],
+            "dose": "2 Sätze mit 10 Wiederholungen",
+            "purpose": "Funktionelle Stabilität"
+          },
+          {
+            "name": "Hüftabduktion im Stand",
+            "position": "Stand mit Festhalten",
+            "steps": [
+              "Bein seitlich abspreizen",
+              "Becken waagerecht halten",
+              "Kontrolliert zurückführen"
+            ],
+            "dose": "2 Sätze mit 12 Wiederholungen",
+            "purpose": "Kräftigung der Hüftabduktoren"
+          }
+        ],
+        "cautions": [
+          "Bei Instabilitätsgefühl oder deutlicher Schmerzreaktion Belastung anpassen",
+          "Sportliche Richtungswechsel erst nach Freigabe und Funktionstests"
+        ],
+        "progressionCriteria": [
+          "Gute Beinachsenkontrolle",
+          "Ausreichende Kraft und Stabilität"
+        ]
+      }
+    ]
+  }
+]
+
